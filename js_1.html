@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+        function myFunction() {
+            var x = document.getElementById("demo_digit").value;
+            if (x = "" | isNaN(x)) {
+                alert("不是数字");
+            }
+        }
+        window.alert("一打开网页就会显示这句话！放在body和head中有些不同。")
+    </script>
+    <style>
+        .home_img {
+            background: url(photo/bg_1.jpg) repeat;
+            background-size: 100% 100%;
+            height: 1000px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="home_img">
+    <h3>按下之后，找到相对应的JS方法，然后执行命令</h3>
+    <p id="demo">这是第一个段落</p>
+    <button type="button" onclick="displayDate()">显示日趋</button>
+    <h3>文本框和按钮，如果不是数字将会显示警告</h3>
+    <input id="demo_digit" type="text">
+    <button type="button" onclick="myFunction()">点击这里</button>
+    <h3>一根JS知识图谱</h3>
+    <a href="https://www.w3cschool.cn/javascript/javascript-skillmap.html" target="_blank">传送门</a>
+    <h4>使用ID来获取元素，然后用innerHTML来获取或插入元素内容</h4>
+    <h4>直接在这个位置插入时间</h4>
+    <script>
+        document.write(Date());
+    </script>
+    <h4>只在控制台能看见，以后可能会用到</h4>
+    <script>
+        a = 5;
+        b = 6;
+        c = a + b;
+        console.log(c);
+    </script>
+    <h3>语法</h3>
+    <p>一个字面量就是一个常量，字面量：number，string，array，表达式，object，function</p><br>
+    <p>变量是一个名称，字面量是一个值。var来定义变量，通常以关键字开头，例如这个</p><br>
+    <p>变量是存储信息的容器</p><br>
+    <p>操作符：算数操作符与赋值操作符</p>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470709822216279.gif" target="_blank">变量学习思维导图</a>
+    <h3>数据类型</h3>
+    <p>string, number, boolean, array, object, null, undefined</p>
+</div>
+</body>
+</html>
