@@ -17,43 +17,75 @@
     </script>
     <style>
         .home_img {
-            background: url(photo/bg_1.jpg) repeat;
-            background-size: 100% 100%;
-            height: 1000px;
+            background-color: darkgrey;
 
         }
     </style>
 </head>
 <body>
 <div class="home_img">
-    <h3>按下之后，找到相对应的JS方法，然后执行命令</h3>
+    <h3>1、按下之后，找到相对应的JS方法，然后执行命令</h3>
     <p id="demo">这是第一个段落</p>
     <button type="button" onclick="displayDate()">显示日趋</button>
-    <h3>文本框和按钮，如果不是数字将会显示警告</h3>
+    <h3>2、文本框和按钮，如果不是数字将会显示警告</h3>
     <input id="demo_digit" type="text">
     <button type="button" onclick="myFunction()">点击这里</button>
-    <h3>一根JS知识图谱</h3>
+    <h3>3、一些JS知识图谱</h3>
     <a href="https://www.w3cschool.cn/javascript/javascript-skillmap.html" target="_blank">传送门</a>
-    <h4>使用ID来获取元素，然后用innerHTML来获取或插入元素内容</h4>
-    <h4>直接在这个位置插入时间</h4>
+    <h3>4、使用ID来获取元素，然后用innerHTML来获取或插入元素内容</h3>
+    <h3>5、直接在这个位置插入时间</h3>
     <script>
         document.write(Date());
     </script>
-    <h4>只在控制台能看见，以后可能会用到</h4>
+    <h3>6、只在控制台能看见，以后可能会用到</h3>
     <script>
         a = 5;
         b = 6;
         c = a + b;
         console.log(c);
     </script>
-    <h3>语法</h3>
-    <p>一个字面量就是一个常量，字面量：number，string，array，表达式，object，function</p><br>
-    <p>变量是一个名称，字面量是一个值。var来定义变量，通常以关键字开头，例如这个</p><br>
-    <p>变量是存储信息的容器</p><br>
-    <p>操作符：算数操作符与赋值操作符</p>
-    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470709822216279.gif" target="_blank">变量学习思维导图</a>
-    <h3>数据类型</h3>
+    <h3>7、语法</h3>
+    <p>一个字面量就是一个常量，字面量：number，string，array，表达式，object，function;<br/>
+        变量是一个名称，字面量是一个值。var来定义变量，通常以关键字开头，例如这个;<br/>
+        变量是存储信息的容器<br/>
+        操作符：算数操作符与赋值操作符</p>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470709822216279.gif" target="_blank">变量学习脑图</a>
+    <h3>8、数据类型</h3>
     <p>string, number, boolean, array, object, null, undefined</p>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470710140220491.gif">数据类型学习脑图</a>
+    <h3>9、函数</h3>
+    <p>局部变量会在函数运行以后被删除，全局变量会在页面关闭之后删除</p>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470709911288582.gif">函数学习脑图</a>
+    <h3>10、事件</h3>
+    <p>常用事件：onchange元素改变，onclick点击，onmouseover移动鼠标，onmouseout移开鼠标，onkeydown按下键盘，onload加载完成</p>
+    <h3>11、字符串</h3>
+    <p>string对象会拖慢运行速度，还会产出其他副作用<br/>属性和方法<br/>数字和字符串相加会变成字符串</p>
+    <p>点击按钮增加字符串</p>
+    <button onclick="myString()">点击增加字符串</button>
+    <p id="demo_string">变变变</p>
+    <script>
+        function myString() {
+            txt1 = "Hello ";
+            txt2 = "world!";
+            txt3 = txt1 + txt2;
+            document.getElementById("demo_string").innerHTML = txt3;
+        }
+    </script>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470710264211893.gif">运算符学习脑图</a>
+    <h3>12、运算符</h3>
+    <p>点击按钮检测年龄！</p>
+    年龄：<input id="demo_age" value="18" />
+    <p>是否达到投票年龄</p>
+    <button onclick="myAge">点击检测</button>
+    <p id="display_age"></p>
+    <script>
+        function myAge() {
+            var age, voteable;
+            age = document.getElementById("demo_age").value;
+            voteable = (age < 18)? "年龄太小" : "年龄已达到";
+            document.getElementById("display_age").innerHTML = voteable;
+        }
+    </script>
 </div>
 </body>
 </html>
