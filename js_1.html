@@ -13,7 +13,7 @@
                 alert("不是数字");
             }
         }
-        window.alert("一打开网页就会显示这句话！放在body和head中有些不同。")
+        window.alert("惊不惊喜，刺不刺激，意不意外！")
     </script>
     <style>
         .home_img {
@@ -31,7 +31,7 @@
     <input id="demo_digit" type="text">
     <button type="button" onclick="myFunction()">点击这里</button>
     <h3>3、一些JS知识图谱</h3>
-    <a href="https://www.w3cschool.cn/javascript/javascript-skillmap.html" target="_blank">传送门</a>
+    <a href="http://bit.ly/2vaKN3F" target="_blank">传送门</a>
     <h3>4、使用ID来获取元素，然后用innerHTML来获取或插入元素内容</h3>
     <h3>5、直接在这个位置插入时间</h3>
     <script>
@@ -73,10 +73,11 @@
     </script>
     <a href="https://img.w3cschool.cn/attachments/image/20160809/1470710264211893.gif">运算符学习脑图</a>
     <h3>12、运算符</h3>
+    <p>条件运算符语法：variablename = (condition) ? value1 : value2</p>
     <p>点击按钮检测年龄！</p>
     年龄：<input id="demo_age" value="18" />
     <p>是否达到投票年龄</p>
-    <button onclick="myAge">点击检测</button>
+    <button onclick="myAge()">点击检测</button>
     <p id="display_age"></p>
     <script>
         function myAge() {
@@ -84,6 +85,53 @@
             age = document.getElementById("demo_age").value;
             voteable = (age < 18)? "年龄太小" : "年龄已达到";
             document.getElementById("display_age").innerHTML = voteable;
+        }
+    </script>
+    <h3>13、流程语句</h3>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470710031660821.gif">流程语句学习脑图</a>
+    <p>if...else, switch, for, while<br/>continue, break, return<br/>throw, try, catch, finally</p>
+    <h3>14、类型转换</h3>
+    <p>五种数据类型：number, string, boolean, object, funtion<br/>
+       三种对象类型：Object, Date, Array<br/>
+       两种不包含任何值的类型：null, undefined<br/>
+       typeof操作符查看数据类型</p>
+    <p id="demo_typeof"></p>
+    <script>
+        document.getElementById("demo_typeof").innerHTML =
+            typeof "john" + "<br>" +
+            typeof 3.14 + "<br>" +
+            typeof NaN + "<br>" +
+            typeof false + "<br>" +
+            typeof [1,2,3,4] + "<br>" +
+            typeof {name:'john', age:34} + "<br>" +
+            typeof new Date() + "<br>" +
+            typeof function () {} + "<br>" +
+            typeof myCar + "<br>" +
+            typeof null;
+    </script>
+    <p> constructor 属性返回变量或对象的构造函数。</p>
+    <p id="demo_constructor"></p>
+    <script>
+        document.getElementById("demo_constructor").innerHTML =
+            "john".constructor + "<br>" +
+            (3.14).constructor + "<br>" +
+            false.constructor + "<br>" +
+            [1,2,3,4].constructor + "<br>" +
+            {name:'john', age:34}.constructor + "<br>" +
+            new Date().constructor + "<br>" +
+            function () {}.constructor;
+    </script>
+    <h3>15、正则表达式</h3>
+    <a href="https://img.w3cschool.cn/attachments/image/20160809/1470710362109508.gif">正则表达式脑图</a>
+    <h3>16、</h3>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+         style="background-color:#D94A38;width:200px;height:20px;padding:40px;">来啊</div>
+    <script>
+        function mOver(obj){
+            obj.innerHTML="Fuck You"
+        }
+        function mOut(obj){
+            obj.innerHTML="来啊，把鼠标移过来"
         }
     </script>
 </div>
