@@ -1,23 +1,46 @@
-ul {
+.site-header {
+    position: fixed;
+    height: 55px;
+    top: 0px;
+    width: 100%;
+    background: #7CE574;
+    border-bottom: 1px solid #DDD;
+}
+.container {
+    width: 100%;
+    min-width: 1129px;
+    padding: 0 20px;
+    height: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+}
+header-l {
+    width: 60%;
+}
+header-r {
+    width: 40%;
+}
+.menu {
     list-style-type:none;
     margin:0;
     padding:0;
     overflow:hidden;
+    float: right;
 }
-li {
-    float:left;
+.menu li {
+    display: inline;
+    padding: inherit;
 }
-a:link, a:visited {
-    display:block;
-    width:120px;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:#98bf21;
-    text-align:center;
-    padding:4px;
-    text-decoration:none;
-    text-transform:uppercase;
+.menu a{
+    width: 60px;
+    padding: 6px 10px 15px;
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    text-decoration: none;
 }
-a:hover, a:active {
-    background-color:#7A991A;
+.menu a:link, .menu a:visited {
+    color: #808080;
+}
+.menu a:hover, .menu a:active {
+    color: #d3d3d3;
 }
