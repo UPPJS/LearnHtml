@@ -1,24 +1,24 @@
 .site-header {
-    position: fixed;
-    height: 55px;
-    top: 0px;
-    width: 100%;
-    background: #7CE574;
-    border-bottom: 1px solid #DDD;
+    margin: 0px;
 }
 .container {
     width: 100%;
     min-width: 1129px;
+    margin: 0px;
     padding: 0 20px;
     height: 55px;
+    background: #7CE574;
     line-height: 55px;
     box-sizing: border-box;
+    border-bottom: 1px solid #EC7E8C;
 }
 header-l {
     width: 60%;
+    position: absolute;
 }
 header-r {
     width: 40%;
+    position: absolute;
 }
 .menu {
     list-style-type:none;
