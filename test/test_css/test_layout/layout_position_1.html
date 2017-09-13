@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        img {
+            width: 22%;
+            height: 22%;
+            top: 5px;
+            left: 150px;
+            border: medium double black;
+        }
+    </style>
+</head>
+<body>
+<p>This is a test.</p>
+<p>This is a test.</p>
+<img id="myID" src="http://img.hb.aicdn.com/3a96093e441144b944d848b6a5faada3bd96256d21ca4-HeZ2cy_fw658"/>
+<p>This is a test.</p>
+<p>
+    <button>Static</button>
+    <button>Relative</button>
+    <button>Absolute</button>
+    <button>Fixed</button>
+</p>
+<script>
+    var buttons = document.getElementsByTagName("BUTTON");
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].onclick = function(e) {
+            document.getElementById("myID").style.position = e.target.innerHTML;
+        };
+    }
+</script>
+</body>
+</html>
