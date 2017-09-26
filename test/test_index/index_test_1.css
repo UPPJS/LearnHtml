@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: auto;
+    height: 70px;
+    background-color: cornflowerblue;
+}
+
+.header_in {
+    width: 1024px;
+    background-color: cornflowerblue;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header_first {
+    float: left;
+}
+
+.header_first a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+a {
+    outline: 0;
+}
+
+.header_first a:hover {
+    color: gold;
+}
+
+.header_menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.header_ul {
+    list-style-type: none;
+    margin-left: 6px;
+    width: auto;
+    padding-top: 6px;
+}
+
+.header_ul li {
+    display: inline;
+    margin: 0 8px 0 8px;
+}
+
+.header_ul li a {
+    color: lightgrey;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header_ul li a:hover {
+    color: gold;
+}
+
+.header_right {
+    font-size: 50px;
+    color: orangered;
+    float: right;
+}
+
+.truth {
+    width: auto;
+    height: 222px;
+    background-color: cornflowerblue;
+}
