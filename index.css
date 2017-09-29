@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #000000 url(photo/img01.gif) repeat-x center top;
 }
 .container {
     width: 100%;
@@ -11,10 +12,9 @@ body {
     margin: 0px;
     padding: 0 20px;
     height: 55px;
-    background: #7CE574;
     line-height: 55px;
     box-sizing: border-box;
-    border-bottom: 1px solid #EC7E8C;
+    // border-bottom: 1px solid #b4b4b4;
 }
 header-l {
     width: 60%;
