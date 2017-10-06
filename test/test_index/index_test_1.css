@@ -11,7 +11,7 @@ body {
 
 .header_in {
     width: 1024px;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     height: 70px;
     margin: 0 auto;
     padding: 0 auto;
@@ -45,14 +45,12 @@ a {
 
 .header_ul {
     list-style-type: none;
-    margin-left: 6px;
-    width: auto;
-    padding-top: 6px;
+    background-color: #7CE574;
+    overflow: hidden;
 }
 
 .header_ul li {
     display: inline;
-    margin: 0 8px 0 8px;
 }
 
 .header_ul li a {
