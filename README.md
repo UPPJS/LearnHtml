@@ -90,31 +90,64 @@
 			a.red:visited {color:#FF0000;} 
 			<a class="red" href="#">this</a>
 >---
-	格式化：
-		<abbr> 元素表示缩写。
-		<address> 元素标记文档或文章元素的联系信息。
-		<strong> 标记重要的文本。加粗。
-		<b> 额外强调或重要性的文本跨度。加粗。
-		<bdi> 标记为了文本方向性而与其他内容隔离的文本。
-		<bdo> 元素指定一个明确的文本方向其内容，覆盖通常应用的自动方向性。
-		<br> <br/>换行。
-		<cite> 引用作品的标题，书、文章、电影。
-		<code> 标记一段计算机代码。
-		<ins> 标记添加的文本。
-			两个局部属性，cite：问什么文本被添加，datetime：进行修改的时间。
-		<del> 标记删除的文本。
-			两个局部属性，cite：问什么文本被删除，datetime：进行修改的时间。
-		<dfn> 定义一个术语。它解释了词或短语的意义。
-		<em> 表示具有强调应力的文本跨度。斜体。
-		<i> 表示文本具有与周围内容不同的性质。斜体。
-		<kbd> 表示用户输入。
-		<mark> 是 HTML5 和表示突出显示的文本。
-		<ruby> <rt> <rp>。
-		<s> 标记文本不再正确或准确。
-		<samp> 表示来自程序或计算机系统的输出。
-		<small> 标记精细打印和经常用于免责声明和澄清。
-		<sub> 下标， <sup> 上标。
-		<time> 表示时间和日期。局部属性：datetime，pubdate。
-		<u> 通过添加下划线标记文本。
-		<var> 标记编程上下文的变量。
-		<wbr> HTML5，合适的地方打破内容的指南。
+格式化：
+
+	<abbr> 元素表示缩写。
+	<address> 元素标记文档或文章元素的联系信息。
+	<strong> 标记重要的文本。加粗。
+	<b> 额外强调或重要性的文本跨度。加粗。
+	<bdi> 标记为了文本方向性而与其他内容隔离的文本。
+	<bdo> 元素指定一个明确的文本方向其内容，覆盖通常应用的自动方向性。
+	<br> <br/>换行。
+	<cite> 引用作品的标题，书、文章、电影。
+	<code> 标记一段计算机代码。
+	<ins> 标记添加的文本。
+		两个局部属性，cite：问什么文本被添加，datetime：进行修改的时间。
+	<del> 标记删除的文本。
+		两个局部属性，cite：问什么文本被删除，datetime：进行修改的时间。
+	<dfn> 定义一个术语。它解释了词或短语的意义。
+	<em> 表示具有强调应力的文本跨度。斜体。
+	<i> 表示文本具有与周围内容不同的性质。斜体。
+	<kbd> 表示用户输入。
+	<mark> 是 HTML5 和表示突出显示的文本。
+	<ruby> <rt> <rp>。
+	<s> 标记文本不再正确或准确。
+	<samp> 表示来自程序或计算机系统的输出。
+	<small> 标记精细打印和经常用于免责声明和澄清。
+	<sub> 下标， <sup> 上标。
+	<time> 表示时间和日期。局部属性：datetime，pubdate。
+	<u> 通过添加下划线标记文本。
+	<var> 标记编程上下文的变量。
+	<wbr> HTML5，合适的地方打破内容的指南。
+>---
+列表：
+
+	使用 CSS 来控制列表的显示。
+	list-style-type CSS属性来控制要是用的项目符号样式。
+	ul 无序列表。
+		在 HTML5 中，type 和 compact 属性已过时。
+	ol 有序列表。
+		在 HTML5 中添加 reversed 属性，conpact 已过时。
+		start 属性，定义列表中第一个项目的序数值。
+		type 属性，指示每个项目旁边应显示哪个标记。
+	自定义列表。
+		dl，开始列表。
+		dt，标头。
+		dd，内容。
+>---
+？figure:
+
+figure 和 figcaption 创建数字。
+>---
+图像：
+	
+	<img> 允许将图像嵌入到 HTML 文档中。
+	局部属性：src, alt, height, width, usemap, ismap。
+	HTML5 中，borde, longesc,  name, align, hspace, vspace 属性已过时。
+……
+>---
+iframe:
+
+现有元素中嵌入另一个 HTML 文档。
+局部属性：src, srcdoc, name, width, height, sandbox, seamless。
+HTML5 中的 sandbox， seamless 属性是新增的。还有一些过时的。
