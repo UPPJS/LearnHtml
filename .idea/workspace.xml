@@ -1,46 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="idea 20171214">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/John.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testhtml/htmlfieldset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testhtml/htmllabel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testhtml/htmllegend.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_background/bg_color.html" afterPath="$PROJECT_DIR$/test/testcss/test_background/bg_color.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_background/bg_image.html" afterPath="$PROJECT_DIR$/test/testcss/test_background/bg_image.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_background/bg_repeat.html" afterPath="$PROJECT_DIR$/test/testcss/test_background/bg_repeat.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_box/box_border.html" afterPath="$PROJECT_DIR$/test/testcss/test_box/box_border.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_box/box_box.html" afterPath="$PROJECT_DIR$/test/testcss/test_box/box_box.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_one.html" afterPath="$PROJECT_DIR$/test/testcss/test_css_1/css_layout_one.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_three.html" afterPath="$PROJECT_DIR$/test/testcss/test_css_1/css_layout_three.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_two.html" afterPath="$PROJECT_DIR$/test/testcss/test_css_1/css_layout_two.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_font/font-size_1.html" afterPath="$PROJECT_DIR$/test/testcss/test_font/font-size_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_font/font-style_1.html" afterPath="$PROJECT_DIR$/test/testcss/test_font/font-style_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_font/font-weight_1.html" afterPath="$PROJECT_DIR$/test/testcss/test_font/font-weight_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_layout/layout_display.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_display.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_layout/layout_position_1.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_layout/layout_position_2.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_layout/layout_position_3.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_list/list_image.html" afterPath="$PROJECT_DIR$/test/testcss/test_list/list_image.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_list/list_position.html" afterPath="$PROJECT_DIR$/test/testcss/test_list/list_position.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_list/list_type.html" afterPath="$PROJECT_DIR$/test/testcss/test_list/list_type.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_list/test_style.html" afterPath="$PROJECT_DIR$/test/testcss/test_list/test_style.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_table/table_border-collapes.html" afterPath="$PROJECT_DIR$/test/testcss/test_table/table_border-collapes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_table/table_border.html" afterPath="$PROJECT_DIR$/test/testcss/test_table/table_border.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_wm/wm_hover.html" afterPath="$PROJECT_DIR$/test/testcss/test_wm/wm_hover.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_css/test_wm/wm_media.html" afterPath="$PROJECT_DIR$/test/testcss/test_wm/wm_media.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/figure.html" afterPath="$PROJECT_DIR$/test/testhtml/figure.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/form_1.html" afterPath="$PROJECT_DIR$/test/testhtml/form_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/form_2.html" afterPath="$PROJECT_DIR$/test/testhtml/form_2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/format.html" afterPath="$PROJECT_DIR$/test/testhtml/format.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/forms.html" afterPath="$PROJECT_DIR$/test/testhtml/forms.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/hyperlink.html" afterPath="$PROJECT_DIR$/test/testhtml/hyperlink.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/iframe.html" afterPath="$PROJECT_DIR$/test/testhtml/iframe.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/image.html" afterPath="$PROJECT_DIR$/test/testhtml/image.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/list.html" afterPath="$PROJECT_DIR$/test/testhtml/list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/pagecontent.html" afterPath="$PROJECT_DIR$/test/testhtml/pagecontent.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testtest/test.html" afterPath="$PROJECT_DIR$/test/testhtml/test.html" />
+    <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/John.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/John.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -65,25 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="3629">
-                <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+              <first_editor relative-caret-position="1510">
+                <caret line="300" column="9" lean-forward="true" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="htmllegend.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/testhtml/htmllegend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,10 +121,10 @@
         <option value="$PROJECT_DIR$/test/testtest/forms.html" />
         <option value="$PROJECT_DIR$/test/testtest/form_1.html" />
         <option value="$PROJECT_DIR$/test/testtest/form_2.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/testtest/htmllabel.html" />
         <option value="$PROJECT_DIR$/test/testhtml/htmlfieldset.html" />
         <option value="$PROJECT_DIR$/test/testhtml/htmllegend.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -183,9 +135,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="710" />
+    <option name="x" value="766" />
     <option name="y" value="30" />
-    <option name="width" value="663" />
+    <option name="width" value="732" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -439,7 +391,7 @@
       <workItem from="1513233879205" duration="141000" />
       <workItem from="1513234059150" duration="4747000" />
       <workItem from="1513238854607" duration="168000" />
-      <workItem from="1513239056408" duration="67000" />
+      <workItem from="1513239056408" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -588,15 +540,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513219915995</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="idea 20171214">
+      <created>1513239136760</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1513239136760</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96934000" />
+    <option name="totallyTimeSpent" value="98619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -612,7 +570,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1669107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -942,17 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3629">
-            <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -966,6 +913,17 @@
         <state relative-caret-position="173">
           <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1510">
+            <caret line="300" column="9" lean-forward="true" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
