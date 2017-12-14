@@ -7,7 +7,7 @@
 ####  基础介绍：
 标签：`<html></html>`。
 * 自闭和标签：`<code/>` 斜杠在后。
-* 换行标签：`<hr/>`。
+* 换行标签：`<br/>`。
 
 注释：`<!--这里填写注释-->`。<br>
 元素：标签中间的成为元素。<br>
@@ -15,45 +15,23 @@
 * class 和 id 是全局属性。
 * 布尔属性是没有值得属性，例如 disable。
 
-结构体：外部结构：DOCTYPE, html。<br>
-嵌套。<br>
-元数据：
-* title：元素设置文档的标题。
-* base：设置基本 URL，局限属性，href 和 target。
-* meta：文档的元数据。
-* 名称/值元数据对：name="autor"。
-* 字符集：用 meta 声明。
-* 字符编码：UTF-8。
-* http-equiv：用途是覆盖：HTTP （超文本传输协议）头之一的值。
-* http-equivalent：属性值refresh，default-style，content-type。
-
-样式：
-* style 元素内联定义css样式。
-* 局限属性：type，media，scoped。
-
-资源链接：link。<br>
-局限属性：href，rel, hreflang, media, type, sizes。<br>
-图标：link。<br>
-脚本：script。
-* 局限属性：type, src, defer, async, charset。
-* 外部脚本：`<script src="simple.js">`</script>`
-* async 和 defer：控制脚本执行。
-* 异步脚本。
-* noscript：向其显示为内容已禁止 JS，或正在使用浏览器的用户不支持它。
-
+`<!DOCTYPE HTML>` 声明，不区分大小写。<br>
+嵌套。
 ---
 ### 二、基本标签
 >---
 #### 基本标签
-
 标题 H1-H6。<br>
 组标题 `<hgroup>`，允许处理多个标头元素作为单个项目。*（idea 不推荐使用这个）*。<br>
 `<hr/>` 表示水平规则，一天横跨页面的线。<br>
-`<div>` 不具有特殊的含义，创建结构，是 `<span>` 元素的 block。	`<span>` 本身没有意义，使用它将一个全局属性应用于内容区域。<br>
-块元素开始新行，行内元素保持同一行。<br>
 `<p>` 段落，包含一个或多个相关句子的文本块。<br>
 `<pre>` 预格式化内容，空格不会折叠，并保留格式。显示代码有用。<br>
 `<blockquote>` 表示从另一个来源引用的块内容。类似于 `<q>`，但通常适用于较大数量的引用内容。可以使用 cite 属性以提供内容的原始源 URL。
+>---
+#### 颜色，三种值
+颜色名，`red`。
+十六进制，color hex,`#000000`。
+颜色RGB，`rgb(0,0,0)`
 >---
 #### 页面内容：（还是搞不懂这是不是有点多余）
 ？`<article>`表示自包含HTML文档中的内容。<br>
@@ -64,6 +42,50 @@
 `<footer>` 表示部分的页脚。<br>
 ？`<aside>` 表示仅与周围元素相关的内容。类似于侧边栏。<br>
 >---
+#### `<head>` 中的元素
+`<title>`：文档的标题。
+`<style>`：内嵌的样式引用地址-CSS。
+`<meta>`
+* 元数据，不会显示，但是会被解析。
+* 为搜索引擎定义关键字。`<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">`
+* 为网页定义描述内容。`<meta name="description" content="Free Web tutorials on HTML and CSS">`
+* 定义网页作者。`<meta name="author" content="Hege Refsnes">`
+* 每三十秒刷新当前页面。`<meta http-equiv="refresh" content="30">`
+* 编码，默认这个。`<meta charset="UTF-8">`
+
+`<link>`
+* 在标题里面加图片，`<link rel="shortcut icon" type="image/x-icon" href="图片位置.ico" />`
+* 链接外部样式表，`<link rel="stylesheet" type="text/css" href="mystyle.css">`
+
+`<script>`：
+* 用于加载脚本文件。
+* `<script src="simple.js">``</script>`
+
+`<noscript>`：向其显示为内容已禁止 JS，或正在使用浏览器的用户不支持它。<br>
+`<base>` : 用来定义整个文件中的链接跳转属性。必须放在 `<head></head>` 里面。
+>---
+#### 区块 `<span>` `<div>`
+块级元素：
+* block。
+* 以新行开始。
+* 它是可用于组合其他 HTML 元素的容器。
+* 如果与 CSS 一同使用，`<div>` 元素可用于对大的内容块设置样式属性。
+* 进行文档布局。
+* 使用 `<table>` 元素进行文档布局不是表格的正确用法。
+
+内联元素：
+* inline。
+* 通常不会以新行开始。
+* 可用作文本的容器。
+>---
+#### 框架 `<iframe>`
+内联框架。<br>
+一个内联框架被用来在当前 HTML 文档中嵌入另一个文档。<br>
+通过使用框架，你可以在同一个浏览器窗口中显示不止一个页面。<br>
+`<iframe src="demo_iframe.htm" width="200" height="200" frameborder="0"></iframe>`
+* frameborder="0" 移除边框。
+
+>---
 #### 超链接
 `<a>` 元素具有局部属性：href，hreflang，media，rel，target，type。
 * href：指定 a 元素引用的资源的 URL。
@@ -73,6 +95,7 @@
 * target：指定应在其中打开链接资源的浏览上下文。
 * type：指定链接资源的 MIME 类型，例如 text/html。
 
+`#` 表示空链接。<br>
 ？？id, coords, shape, urn, charset, methods, rev 属性已过时。<br>
 外部超链接：href。
 * http, https, ftp, mailto。
@@ -95,6 +118,13 @@ target 浏览上下文。
 * a:active, selected.
 	* a.red:visited {color:#FF0000;} 
 	* `<a class="red" href="#">`this`</a>`
+>---
+####  图片
+`<img>` 两个必须的属性：src，alt。
+* `<img src="urlpath" alt="some_text" width="100" height="200">`
+
+`<map>` 定义图像地图。<br>
+`<area>`定义图像地图中的可点击区域。
 >---
 #### 格式化
 `<abbr>` 元素表示缩写。<br>
