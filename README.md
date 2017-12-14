@@ -29,9 +29,9 @@
 `<blockquote>` 表示从另一个来源引用的块内容。类似于 `<q>`，但通常适用于较大数量的引用内容。可以使用 cite 属性以提供内容的原始源 URL。
 >---
 #### 颜色，三种值
-颜色名，`red`。
-十六进制，color hex,`#000000`。
-颜色RGB，`rgb(0,0,0)`
+颜色名，`red`。<br>
+十六进制，color hex,`#000000`。<br>
+颜色RGB，`rgb(0,0,0)`。
 >---
 #### 页面内容：（还是搞不懂这是不是有点多余）
 ？`<article>`表示自包含HTML文档中的内容。<br>
@@ -53,7 +53,7 @@
 * 每三十秒刷新当前页面。`<meta http-equiv="refresh" content="30">`
 * 编码，默认这个。`<meta charset="UTF-8">`
 
-`<link>`
+`<link>`：
 * 在标题里面加图片，`<link rel="shortcut icon" type="image/x-icon" href="图片位置.ico" />`
 * 链接外部样式表，`<link rel="stylesheet" type="text/css" href="mystyle.css">`
 
@@ -175,17 +175,6 @@ list-style-type CSS属性来控制要是用的项目符号样式。<br>
 >---
 #### ？figure
 figure 和 figcaption 创建数字。
->---
-#### 图像
-`<img>` 允许将图像嵌入到 HTML 文档中。<br>
-局部属性：src, alt, height, width, usemap, ismap。<br>
-HTML5 中，borde, longesc,  name, align, hspace, vspace 属性已过时。<br>
-……
->---
-#### iframe
-现有元素中嵌入另一个 HTML 文档。<br>
-局部属性：src, srcdoc, name, width, height, sandbox, seamless。<br>
-HTML5 中的 sandbox， seamless 属性是新增的。还有一些过时的。<br>
 >---
 ### 三、表格
 ---

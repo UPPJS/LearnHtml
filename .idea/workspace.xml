@@ -4,7 +4,6 @@
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_1.html" afterPath="$PROJECT_DIR$/js_1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-1862">
-                <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <first_editor relative-caret-position="323">
+                <caret line="176" column="25" lean-forward="false" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -539,7 +538,7 @@
       <workItem from="1513234059150" duration="4747000" />
       <workItem from="1513238854607" duration="168000" />
       <workItem from="1513239056408" duration="1779000" />
-      <workItem from="1513257231218" duration="9594000" />
+      <workItem from="1513257231218" duration="9800000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -709,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513264709494</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="idea 20171215">
+      <created>1513272747750</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1513272747750</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108240000" />
+    <option name="totallyTimeSpent" value="108446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -777,7 +783,8 @@
     <MESSAGE value="idea 20171212" />
     <MESSAGE value="idea 20171213" />
     <MESSAGE value="idea 20171214" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea 20171214" />
+    <MESSAGE value="idea 20171215" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea 20171215" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1082,8 +1089,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1862">
-            <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <first_editor relative-caret-position="323">
+            <caret line="176" column="25" lean-forward="false" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor />
