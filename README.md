@@ -302,3 +302,109 @@ url 输入。<br>
 隐藏输入。<br>
 图像输入。<br>
 文件上传输入。<br>
+>---
+#### 表单选择
+`<select>` 元素创建用户选择地选项列表。<br>
+它的属性：
+* label：允许为已分组的选项创建标题。
+* name
+* disabled：使选项元素不可选。
+* form
+* size：指定要向用户显示的选项数。
+* multiple：允许用户选择多个值。
+* autofocus
+* required
+
+还可以包含其他元素：
+* `<contents>`
+* `<option>` ：定义要向用户显示的选项。
+* `<optgroup>` ：仅用于结构，用户不能选择这些值作为值。
+>---
+#### 表单文本域
+`<texarea>` 创建一个多行文本框。
+它的属性：
+* name
+* disabled
+* form
+* readonly
+* maxlength
+* autofocus
+* required
+* firname
+* rows：文本域的维度。
+* warp：控制在提交表单是如何将换行符插入到文本中。
+* cols：文本域的维度。
+
+文本内容包裹在开始和结束标签之间。
+>---
+#### 表单输出
+输出元素表示计算的结果。
+它的属性：
+* name
+* form
+* for
+>---
+#### 表单验证
+HTML5 引入了对输入验证的支持，通过属性管理输入验证。
+* 验证属性: required
+    * 确保用户提供一个值，在提供值之前，用户不能提交表单。
+    * 元素: textarea, select, input (text, password, checkbox, radio, file, datetime,datetime-local, date, month, time, week, number, email, url, search, 和 tel 类型)
+    
+* 验证属性: min, max
+    * bounded 输入，确保数值和日期值在特定范围内。
+    * 元素: input (datetime, datetime-local, date, month, time, week, number, 和 range 类型)
+    
+* 验证属性: pattern
+    * 匹配模式，确保值与正则表达式匹配。
+    * 该模式确保用户输入两个名称，用空格分隔。
+    * 元素: input (text, password, email, url, search, 和 tel 类型)
+    
+电子邮件或网址。
+* 输入元素的电子邮件类型确保使用输入有效的电子邮件地址。
+* 必需属性确保用户提供值。
+* pattern属性确保电子邮件地址属于特定域（mydomain.com）。
+
+禁用验证。
+* 将 novalidate 属性应用于表单元素，
+* 或将 formnovalidate 属性应用于可以提交表单的按钮和输入元素的类型来禁用表单验证。
+>---
+### 五、对象
+>---
+#### `<object>`
+`<object>` 与 `<embed>` 具有相同的结果。
+它的属性：
+* data：提供内容的位置。
+* type
+* height
+* width
+* usemap
+* name
+* form
+
+`<param>` ：定义要传递给插件的参数。使用属性名称和值。<br>
+可以有零个或多个参数元素。<br>
+表单元素是 HTML5 中的新属性。<br>
+可以包括如果您指定的内容不可用将显示的内容。<br>
+嵌入图像。<br>
+创建客户端图像映射。
+* usemap 属性可用于将 `<map>` 与 `<object>` 相关联。
+
+`<embed>` 局部属性：
+* scr：指定内容的位置。
+* type: 指定内容的 MIME 类型。
+* height：嵌入内容的大小。
+* width：嵌入内容的大小。
+>---
+#### `<progress>`
+可用于指示任务的逐渐完成。它的两个局部属性：value，max。
+* value：定义当前进度，它在零和 max 属性的值之间。
+* 当省略 max 属性时，比例在0和1之间。使用浮点数表示进度。
+#### `<meter>`
+显示在可能值范围的上下文中显示的值。
+局部属性：
+* value
+* form
+* min 和 max 属性设置可能值范围的边界。可以使用浮点数来表示。
+* low 属性设置值被认为过低的值。
+* high 属性设置值被认为过高的值。
+* optimum 属性指定“刚好正确”的值。
