@@ -619,6 +619,7 @@ padding 此简写属性在单个声明中设置所有边的填充。<br>
 四个边都有数值。<br>
 >---
 #### 尺寸 Size
+
 width，height：设置元素的宽度和高度。Value: auto or length or %<br>
 min-width，min-height：设置元素的最小可接受宽度或高度。Value: auto or length or %<br>
 max-width，max-height：设置元素的最大可接受宽度或高度。Value: auto length %<br>
