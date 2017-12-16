@@ -8,15 +8,16 @@
 标签：`<html></html>`。
 * 自闭和标签：`<code/>` 斜杠在后。
 * 换行标签：`<br/>`。
+  注释：`<!--这里填写注释-->`。<br>
+  元素：标签中间的成为元素。<br>
 
-注释：`<!--这里填写注释-->`。<br>
-元素：标签中间的成为元素。<br>
 属性：顺序不重要。
 * class 和 id 是全局属性。
 * 布尔属性是没有值得属性，例如 disable。
 
 `<!DOCTYPE HTML>` 声明，不区分大小写。<br>
 嵌套。
+
 ---
 ### 二、基本标签
 >---
@@ -116,8 +117,8 @@ target 浏览上下文。
 * a:visited, visited.
 * a:hover, mouse over link.
 * a:active, selected.
-	* a.red:visited {color:#FF0000;} 
-	* `<a class="red" href="#">`this`</a>`
+  * a.red:visited {color:#FF0000;} 
+  * `<a class="red" href="#">`this`</a>`
 >---
 ####  图片
 `<img>` 两个必须的属性：src，alt。
@@ -183,7 +184,7 @@ figure 和 figcaption 创建数字。
 ### 四、表单
 >---
 #### 基本
-	
+
 表单是用于从用户收集输入的 HTML 机制。<br>
 创建表单三元素：form，input，button。<br>
 局部属性表单元素：action，method，enctype，name，accept-charset，novalidata，target，autocomplete。<br>
@@ -194,15 +195,15 @@ figure 和 figcaption 创建数字。
 #### ？表单编码
 enctype 属性指定浏览器如何编码数据并将其呈现给服务器。
 * 三个允许值：
-	* application/x-www-form-urlencoded 默认，无法上传文件。
-	* multipart/form-data 将文件上传给服务器。
-	* text/plain 因浏览器而异。
+  * application/x-www-form-urlencoded 默认，无法上传文件。
+  * multipart/form-data 将文件上传给服务器。
+  * text/plain 因浏览器而异。
 >---
 #### 表单属性
 ？如果不想让浏览器自动填写表单，可以用 autocomplete 属性。
 * 两个允许值：
-	* on 允许浏览器天子表单，默认。
-	* off 
+  * on 允许浏览器天子表单，默认。
+  * off 
 
 默认行为是用响应服务器替换页面。target 属性。跟 `<a>` 的 target 属性相同。<br>
 name 属性设置表单的唯一标识符。
@@ -238,10 +239,10 @@ id 属性添加到输入元素，标签使用这些 id 作为标签元素上 for
     * formmethod：覆盖表单元素上的方法属性。
     * formtarget：覆盖表单元素上的target属性。
     * formnovalidate：覆盖表单上的novalidate属性以指定是否应执行客户端验证。
-    
+
 * reset：重置表单。
     * 按下将表单中的所有输入元素重置为其初始状态。
-    
+
 * button：通用按钮，没有特定的语义意义。
 * 图像按钮。
 >---
@@ -368,16 +369,16 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * 验证属性: required
     * 确保用户提供一个值，在提供值之前，用户不能提交表单。
     * 元素: textarea, select, input (text, password, checkbox, radio, file, datetime,datetime-local, date, month, time, week, number, email, url, search, 和 tel 类型)
-    
+
 * 验证属性: min, max
     * bounded 输入，确保数值和日期值在特定范围内。
     * 元素: input (datetime, datetime-local, date, month, time, week, number, 和 range 类型)
-    
+
 * 验证属性: pattern
     * 匹配模式，确保值与正则表达式匹配。
     * 该模式确保用户输入两个名称，用空格分隔。
     * 元素: input (text, password, email, url, search, 和 tel 类型)
-    
+
 电子邮件或网址。
 * 输入元素的电子邮件类型确保使用输入有效的电子邮件地址。
 * 必需属性确保用户提供值。
@@ -418,8 +419,9 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 可用于指示任务的逐渐完成。它的两个局部属性：value，max。
 * value：定义当前进度，它在零和 max 属性的值之间。
 * 当省略 max 属性时，比例在0和1之间。使用浮点数表示进度。
+> ---
 #### `<meter>`
-显示在可能值范围的上下文中显示的值。
+显示在可能值范围的上下文中显示的值。<br>
 局部属性：
 * value
 * form
@@ -427,3 +429,140 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * low 属性设置值被认为过低的值。
 * high 属性设置值被认为过高的值。
 * optimum 属性指定“刚好正确”的值。
+---
+## CSS
+---
+### 一、简介
+>---
+
+层叠样式表，(Cascading Style Sheets)。<br>
+定义如何显示 HTML 元素。<br>
+样式：
+* 内联，嵌入式，外部样式表。
+* 使用 @import 语句将样式从一个样式表导入到另一个样式表。`@import "styles.css";`
+
+语法：一个选择器和一个或多个声明。
+* h1 是选择器。
+* {color:red;front-size:12px;} 是声明。
+* color是属性名称。
+* red是属性值。
+* color:red; 被称为一个声明。
+
+CSS 注释以“ /* ”开头，以“ */ ”结尾，`/*This is comment*/`<br>
+字符编码：`@charset  "UTF-8";`<br>
+样式级别：
+* 内联样式 - 使用元素上的style全局属性定义的样式。
+* 嵌入式样式 - 在样式元素中定义的样式。
+* 外部样式 - 使用链接元素导入的样式。
+* 用户样式 - 已由用户定义的样式。
+* 浏览器样式 - 浏览器应用的默认样式。
+
+通过对声明附加`!important` ，可以将单个值标记为重,`a{color:black!important;}`<br>
+如果浏览器找不到一个可用样式中的值，它将使用继承。<br>
+你可以通过使用 `inherit` 在样式中强制继承，`span {border: inherit;}`
+>---
+### 二、值
+>---
+颜色：
+* 名称：`black`。
+* 十六进制（HEXCOLOR）：`#000000`。
+* RGB 颜色：`rgb(0,0,0)`。
+
+两种长度单位：
+* absolute：in，cm，pt……
+* relative：em，ex，px，%……
+
+单位计算。<br>
+角度单位。<br>
+时间单位。
+>---
+### 三、基本样式
+>---
+#### 选择器
+CSS选择器可以基于其id，类，类型，属性，属性值等选择HTML元素。<br>
+选择器效率排序：
+* id选择器（#myid）。
+* 类选择器（.myclassname），最常用的选择器。
+* 元素选择器（div,h1,p）。
+* 相邻选择器（h1+p）。
+* 子选择器（ul > li）。
+* 后代选择器（li a）。
+* 通配符选择器（*）。
+* 属性选择器（a[rel="external"]）。
+* 伪类选择器（a:hover, li:nth-child）。
+>---
+#### 背景
+background-color 设置元素的背景颜色。颜色在任何图像后面绘制。<br>
+background-image 设置元素的背景图像。如果指定了多个图像，则每个后续图像都绘制在其前面的图像之后。<br>
+background-repeat 设置图像的重复样式。
+* repeat-x - 水平重复图像; 图像可能会碎片化。
+* repeat-y - 垂直重复图像; 图像可能会碎片化。
+* repeat - 在两个方向重复图像; 图像可能会碎片化。
+* space - 图像被重复以填充空间而不产生碎片，并且剩余区域被均匀地分配在图像周围。
+* round - 图像被缩放，以便它可以重复而不创建碎片。
+* no-repeat - 图像不重复。
+
+background-size 设置背景图像的大小。<br>
+background-position 定位背景图像。<br>
+background-attachment 设置具有视口的元素中的图像的附件样式。<br>
+background-clip 指定图像的剪裁样式。<br>
+background-origin 定位背景图像。<br>
+background 简写元素。<br>
+>---
+#### 文本
+>---
+颜色。<br>
+对齐方式 text-align。
+* 它的值：start, end, left, right, center, justify。
+
+文本修饰 text-decoration。
+* 它的值：none, underline, overline, line-through, blink。
+* 默认值为 none。
+
+文本变换 text-transform。
+* 它的值：none, capitalize, uppercase, lowercase。
+* 默认值为 none。
+
+还有更多……
+>---
+#### 字体
+font-family 字体系列。按照首选项的顺序指定字体。浏览器以第一个字体开始。<br>
+font-size 字体大小。<br>
+font-weight 权重。类似于颜色深浅。<br>
+font-style 斜体字。<br>
+还有更多……
+>---
+#### 链接
+四种链接状态。
+* a:link - 未访问的链接
+* a:visited - 已访问的链接
+* a:hover - 一个悬停（mouses over it）链接。
+* a:active - 链接正在点击
+
+>---
+#### 列表
+列表分三种：有序、无序、自定义。<br>
+list-style-type 列表标记。（点，十字或字母之类的）。<br>
+list-style-image 图像标记样式。<br>
+list-style-position 相对于 `<li>` 元素的内容框位置。
+* inside，不包括标记。
+* outside，全包括。
+
+list-style 简写属性。后面直接跟相关值。
+>---
+#### 表格
+表格边框：`border: 1px solid black;`
+表边框折叠：border-collapse，一般默认是中空型的，这个是正常的意思。
+宽度和高度：width，height。
+表文本对齐：
+* text-align 水平对齐。
+* vertical-align 垂直对齐。
+>---
+#### 盒模型
+每个 HTML 元素都带有边框，边距，填充，内容的矩形框。
+* Margin：边界外的透明区域。
+* Border：边框在填充和内容的周围。
+* padding：内容周围的透明区域。
+* Content：实际文本和图像。
+
+![盒模型](https://github.com/simbaping.github.io/test/testpic/box-model.gif)
