@@ -551,9 +551,9 @@ list-style-position 相对于 `<li>` 元素的内容框位置。
 list-style 简写属性。后面直接跟相关值。
 >---
 #### 表格
-表格边框：`border: 1px solid black;`
-表边框折叠：border-collapse，一般默认是中空型的，这个是正常的意思。
-宽度和高度：width，height。
+表格边框：`border: 1px solid black;`<br>
+表边框折叠：border-collapse，一般默认是中空型的，这个是正常的意思。<br>
+宽度和高度：width，height。<br>
 表文本对齐：
 * text-align 水平对齐。
 * vertical-align 垂直对齐。
@@ -566,3 +566,60 @@ list-style 简写属性。后面直接跟相关值。
 * Content：实际文本和图像。
 
 ![盒模型](https://github.com/SimbaPing/simbaping.github.io/test/testpic/box-model.gif)
+>---
+#### 轮廓 Outline
+是最外的边界线。不是元素尺寸的一部分。
+轮廓不被视为页面的一部分，因此咋应用他们时不会导致页面布局被调整。
+outline-color 将颜色设置为轮廓。Value: color
+outline-offset 设置轮廓的偏移量。Value:length
+outline-style 设置轮廓的样式。此值与border-style属性的值相同。
+outline-width 设置轮廓的宽度。Value:thin or medium or thick or length
+outline 简写属性在单个声明中设置轮廓。Value: color style width
+>---
+#### 外边距 Margin
+Margin外边距是元素边界与其周围之间的距离。这包括其他元素和父元素。
+* margin-top 设置顶边的边距。Value: auto length %
+* margin-right 设置右边的边距。Value: auto length %
+* margin-bottom 设置底边的页边距。Value: auto length %
+* margin-left 设置左边的边距。Value: auto length %
+* margin 此简写属性在单个声明中设置所有边的边距。Value: 1 - 4 auto length %
+
+百分比值始终从包含块的宽度导出，即使用于填充顶部和底部边缘。
+对于内联元素，其边距不会显示在顶部和底部边缘。
+>---
+#### 边框 Border
+border-width：设置边框的**宽度**。<br>
+border-style：设置用于绘制边框的**样式**。实线虚线之类的有好多。<br>
+border-color：设置边框的**颜色**。<br>
+还可以设置单边边框：border-top-width，等等……<br>
+简写属性。
+>---
+#### 填充 Padding
+添加元素的内容和其边框之间的空间。<br>
+padding-top 设置顶边的填充。Value: length or %<br>
+padding-right 设置右边的填充。Value: length or %<br>
+padding-bottom 设置底边的填充。Value: length or %<br>
+padding-left 设置左边的填充。Value: length or %<br>
+padding 此简写属性在单个声明中设置所有边的填充。<br>
+当使用 % 指定填充时，% 始终从包含块的宽度导出。<br>
+四个边都有数值。
+>---
+#### 尺寸 Size
+width，height：设置元素的宽度和高度。Value: auto or length or %<br>
+min-width，min-height：设置元素的最小可接受宽度或高度。Value: auto or length or %<br>
+max-width，max-height：设置元素的最大可接受宽度或高度。Value: auto length %<br>
+box-sizing：设置元素框的哪个部分用于大小调整。Value: content-box or padding-box or border-box or margin-box<br>
+所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。
+---
+### 四、布局 Layout
+>---
+#### 显示 display
+显示 `display`，隐藏 `visibility`。<br>
+隐藏元素：
+* `display: none` ，但是元素仍然占据空间并影响布局。
+* `visibility: hidden` ，并从布局中删除元素。
+
+块元素 block，内联元素 inline。<br>
+inline-block 值混合块和内联特性。
+* 盒子的外部被视为内联元素。不会为元素创建新行。
+* 盒子的内部被视为块元素，并应用诸如宽度，高度和边距到底属性。
