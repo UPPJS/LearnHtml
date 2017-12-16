@@ -640,15 +640,15 @@ inline-block 值混合块和内联特性。
 
 >---
 #### 定位 Position
-元素的位置有顶部，右侧，底部，左侧属性控制。
-除非先设置 position 属性，否则这些属性将不起作用。
+元素的位置有顶部，右侧，底部，左侧属性控制。<br>
+除非先设置 position 属性，否则这些属性将不起作用。<br>
 它的值：
 * static：布局正常。 这是默认值。
 * relative：相对于其正常位置定位。
 * absolute：相对于其具有非静态位置值的其第一祖先定位。
 * fixed：相对于浏览器窗口定位。
 
-可以使用 top，bottom，left，right 属性，将元素从 position 属性指定的元素中移除。
+可以使用 top，bottom，left，right 属性，将元素从 position 属性指定的元素中移除。<br>
 **静态定位**：
 * 默认 HTML 元素处于静态。
 * 根据页面的正常流动定位。
