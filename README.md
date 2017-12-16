@@ -1,4 +1,4 @@
-# HTML & CSS & JS
+# HTML CSS  JS
 ---
 ## HTML
 ---
@@ -16,8 +16,7 @@
 * 布尔属性是没有值得属性，例如 disable。
 
 `<!DOCTYPE HTML>` 声明，不区分大小写。<br>
-嵌套。
-
+嵌套。<br>
 ---
 ### 二、基本标签
 >---
@@ -27,12 +26,12 @@
 `<hr/>` 表示水平规则，一天横跨页面的线。<br>
 `<p>` 段落，包含一个或多个相关句子的文本块。<br>
 `<pre>` 预格式化内容，空格不会折叠，并保留格式。显示代码有用。<br>
-`<blockquote>` 表示从另一个来源引用的块内容。类似于 `<q>`，但通常适用于较大数量的引用内容。可以使用 cite 属性以提供内容的原始源 URL。
+`<blockquote>` 表示从另一个来源引用的块内容。类似于 `<q>`，但通常适用于较大数量的引用内容。可以使用 cite 属性以提供内容的原始源 URL。<br>
 >---
 #### 颜色，三种值
 颜色名，`red`。<br>
 十六进制，color hex,`#000000`。<br>
-颜色RGB，`rgb(0,0,0)`。
+颜色RGB，`rgb(0,0,0)`。<br>
 >---
 #### 页面内容：（还是搞不懂这是不是有点多余）
 ？`<article>`表示自包含HTML文档中的内容。<br>
@@ -63,7 +62,7 @@
 * `<script src="simple.js">``</script>`
 
 `<noscript>`：向其显示为内容已禁止 JS，或正在使用浏览器的用户不支持它。<br>
-`<base>` : 用来定义整个文件中的链接跳转属性。必须放在 `<head></head>` 里面。
+`<base>` : 用来定义整个文件中的链接跳转属性。必须放在 `<head></head>` 里面。<br>
 >---
 #### 区块 `<span>` `<div>`
 块级元素：
@@ -78,6 +77,7 @@
 * inline。
 * 通常不会以新行开始。
 * 可用作文本的容器。
+
 >---
 #### 框架 `<iframe>`
 内联框架。<br>
@@ -119,13 +119,14 @@ target 浏览上下文。
 * a:active, selected.
   * a.red:visited {color:#FF0000;} 
   * `<a class="red" href="#">`this`</a>`
+
 >---
 ####  图片
 `<img>` 两个必须的属性：src，alt。
 * `<img src="urlpath" alt="some_text" width="100" height="200">`
 
 `<map>` 定义图像地图。<br>
-`<area>`定义图像地图中的可点击区域。
+`<area>`定义图像地图中的可点击区域。<br>
 >---
 #### 格式化
 `<abbr>` 元素表示缩写。<br>
@@ -173,9 +174,10 @@ list-style-type CSS属性来控制要是用的项目符号样式。<br>
 * `<dl>`，开始列表。
 * `<dt>`，标头。
 * `<dd>`，内容。
+
 >---
 #### ？figure
-figure 和 figcaption 创建数字。
+figure 和 figcaption 创建数字。<br>
 >---
 ### 三、表格
 ---
@@ -191,6 +193,7 @@ figure 和 figcaption 创建数字。
 表单 HTTP 方法：
 * method 属性指定将哪个 HTTP 方法将表单数据发送到服务器。	
 * 值为 get 和 post。默认 get。
+
 >---
 #### ？表单编码
 enctype 属性指定浏览器如何编码数据并将其呈现给服务器。
@@ -198,6 +201,7 @@ enctype 属性指定浏览器如何编码数据并将其呈现给服务器。
   * application/x-www-form-urlencoded 默认，无法上传文件。
   * multipart/form-data 将文件上传给服务器。
   * text/plain 因浏览器而异。
+  
 >---
 #### 表单属性
 ？如果不想让浏览器自动填写表单，可以用 autocomplete 属性。
@@ -209,6 +213,7 @@ enctype 属性指定浏览器如何编码数据并将其呈现给服务器。
 name 属性设置表单的唯一标识符。
 * name 属性的值不会发送到服务器，不像输入元素上的属性name重要。
 * 如果输入元素没有 name，则在提交表单是，用户输入的数据不会发送到服务器。
+
 >---
 #### 表单标签
 `<label>` 为表单中的每个元素提供了一些上下文。<br>
@@ -245,6 +250,7 @@ id 属性添加到输入元素，标签使用这些 id 作为标签元素上 for
 
 * button：通用按钮，没有特定的语义意义。
 * 图像按钮。
+
 >---
 #### 表单输入
 将 type 属性设置为 `<input>` 元素的文本，浏览器将显示单行文本框。<br>
@@ -258,6 +264,7 @@ id 属性添加到输入元素，标签使用这些 id 作为标签元素上 for
 * required - 指定用户必须输入值以进行输入验证。
 * size - 指定元素在文本框中可见的字符数中的宽度。
 * value - 指定文本框的初始值。
+
 >---
 #### 表单输入类型
 按钮输入。<br>
@@ -339,6 +346,7 @@ url 输入。<br>
 * `<contents>`
 * `<option>` ：定义要向用户显示的选项。
 * `<optgroup>` ：仅用于结构，用户不能选择这些值作为值。
+
 >---
 #### 表单文本域
 `<texarea>` 创建一个多行文本框。
@@ -355,7 +363,7 @@ url 输入。<br>
 * warp：控制在提交表单是如何将换行符插入到文本中。
 * cols：文本域的维度。
 
-文本内容包裹在开始和结束标签之间。
+文本内容包裹在开始和结束标签之间。<br>
 >---
 #### 表单输出
 输出元素表示计算的结果。
@@ -363,6 +371,7 @@ url 输入。<br>
 * name
 * form
 * for
+
 >---
 #### 表单验证
 HTML5 引入了对输入验证的支持，通过属性管理输入验证。
@@ -387,6 +396,7 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 禁用验证。
 * 将 novalidate 属性应用于表单元素，
 * 或将 formnovalidate 属性应用于可以提交表单的按钮和输入元素的类型来禁用表单验证。
+
 >---
 ### 五、对象
 >---
@@ -414,11 +424,13 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * type: 指定内容的 MIME 类型。
 * height：嵌入内容的大小。
 * width：嵌入内容的大小。
+
 >---
 #### `<progress>`
 可用于指示任务的逐渐完成。它的两个局部属性：value，max。
 * value：定义当前进度，它在零和 max 属性的值之间。
 * 当省略 max 属性时，比例在0和1之间。使用浮点数表示进度。
+
 > ---
 #### `<meter>`
 显示在可能值范围的上下文中显示的值。<br>
@@ -429,12 +441,12 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * low 属性设置值被认为过低的值。
 * high 属性设置值被认为过高的值。
 * optimum 属性指定“刚好正确”的值。
+
 ---
 ## CSS
 ---
 ### 一、简介
 >---
-
 层叠样式表，(Cascading Style Sheets)。<br>
 定义如何显示 HTML 元素。<br>
 样式：
@@ -459,7 +471,7 @@ CSS 注释以“ /* ”开头，以“ */ ”结尾，`/*This is comment*/`<br>
 
 通过对声明附加`!important` ，可以将单个值标记为重,`a{color:black!important;}`<br>
 如果浏览器找不到一个可用样式中的值，它将使用继承。<br>
-你可以通过使用 `inherit` 在样式中强制继承，`span {border: inherit;}`
+你可以通过使用 `inherit` 在样式中强制继承，`span {border: inherit;}`<br>
 >---
 ### 二、值
 >---
@@ -490,6 +502,7 @@ CSS选择器可以基于其id，类，类型，属性，属性值等选择HTML�
 * 通配符选择器（*）。
 * 属性选择器（a[rel="external"]）。
 * 伪类选择器（a:hover, li:nth-child）。
+
 >---
 #### 背景
 background-color 设置元素的背景颜色。颜色在任何图像后面绘制。<br>
@@ -523,21 +536,21 @@ background 简写元素。<br>
 * 它的值：none, capitalize, uppercase, lowercase。
 * 默认值为 none。
 
-还有更多……
+还有更多……<br>
 >---
 #### 字体
 font-family 字体系列。按照首选项的顺序指定字体。浏览器以第一个字体开始。<br>
 font-size 字体大小。<br>
 font-weight 权重。类似于颜色深浅。<br>
 font-style 斜体字。<br>
-还有更多……
+还有更多……<br>
 >---
 #### 链接
 四种链接状态。
 * a:link - 未访问的链接
 * a:visited - 已访问的链接
 * a:hover - 一个悬停（mouses over it）链接。
-* a:active - 链接正在点击
+* a:active - 链接正在点击。
 
 >---
 #### 列表
@@ -548,7 +561,7 @@ list-style-position 相对于 `<li>` 元素的内容框位置。
 * inside，不包括标记。
 * outside，全包括。
 
-list-style 简写属性。后面直接跟相关值。
+list-style 简写属性。后面直接跟相关值。<br>
 >---
 #### 表格
 表格边框：`border: 1px solid black;`<br>
@@ -557,6 +570,7 @@ list-style 简写属性。后面直接跟相关值。
 表文本对齐：
 * text-align 水平对齐。
 * vertical-align 垂直对齐。
+
 >---
 #### 盒模型
 每个 HTML 元素都带有边框，边距，填充，内容的矩形框。
@@ -565,7 +579,7 @@ list-style 简写属性。后面直接跟相关值。
 * padding：内容周围的透明区域。
 * Content：实际文本和图像。
 
-![盒模型](https://github.com/SimbaPing/simbaping.github.io/test/testpic/box-model.gif)
+![盒模型](https://github.com/SimbaPing/simbaping.github.io/test/testpic/box-model.gif)<br>
 >---
 #### 轮廓 Outline
 是最外的边界线。不是元素尺寸的一部分。
@@ -574,7 +588,7 @@ outline-color 将颜色设置为轮廓。Value: color
 outline-offset 设置轮廓的偏移量。Value:length
 outline-style 设置轮廓的样式。此值与border-style属性的值相同。
 outline-width 设置轮廓的宽度。Value:thin or medium or thick or length
-outline 简写属性在单个声明中设置轮廓。Value: color style width
+outline 简写属性在单个声明中设置轮廓。Value: color style width<br>
 >---
 #### 外边距 Margin
 Margin外边距是元素边界与其周围之间的距离。这包括其他元素和父元素。
@@ -585,14 +599,14 @@ Margin外边距是元素边界与其周围之间的距离。这包括其他元�
 * margin 此简写属性在单个声明中设置所有边的边距。Value: 1 - 4 auto length %
 
 百分比值始终从包含块的宽度导出，即使用于填充顶部和底部边缘。
-对于内联元素，其边距不会显示在顶部和底部边缘。
+对于内联元素，其边距不会显示在顶部和底部边缘。<br>
 >---
 #### 边框 Border
 border-width：设置边框的**宽度**。<br>
 border-style：设置用于绘制边框的**样式**。实线虚线之类的有好多。<br>
 border-color：设置边框的**颜色**。<br>
 还可以设置单边边框：border-top-width，等等……<br>
-简写属性。
+简写属性。<br>
 >---
 #### 填充 Padding
 添加元素的内容和其边框之间的空间。<br>
@@ -602,18 +616,18 @@ padding-bottom 设置底边的填充。Value: length or %<br>
 padding-left 设置左边的填充。Value: length or %<br>
 padding 此简写属性在单个声明中设置所有边的填充。<br>
 当使用 % 指定填充时，% 始终从包含块的宽度导出。<br>
-四个边都有数值。
+四个边都有数值。<br>
 >---
 #### 尺寸 Size
 width，height：设置元素的宽度和高度。Value: auto or length or %<br>
 min-width，min-height：设置元素的最小可接受宽度或高度。Value: auto or length or %<br>
 max-width，max-height：设置元素的最大可接受宽度或高度。Value: auto length %<br>
 box-sizing：设置元素框的哪个部分用于大小调整。Value: content-box or padding-box or border-box or margin-box<br>
-所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。
+所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。<br>
 ---
 ### 四、布局 Layout
 >---
-#### 显示 display
+#### 显示 Display
 显示 `display`，隐藏 `visibility`。<br>
 隐藏元素：
 * `display: none` ，但是元素仍然占据空间并影响布局。
@@ -623,3 +637,23 @@ box-sizing：设置元素框的哪个部分用于大小调整。Value: content-b
 inline-block 值混合块和内联特性。
 * 盒子的外部被视为内联元素。不会为元素创建新行。
 * 盒子的内部被视为块元素，并应用诸如宽度，高度和边距到底属性。
+
+>---
+#### 定位 Position
+元素的位置有顶部，右侧，底部，左侧属性控制。
+除非先设置 position 属性，否则这些属性将不起作用。
+它的值：
+* static：布局正常。 这是默认值。
+* relative：相对于其正常位置定位。
+* absolute：相对于其具有非静态位置值的其第一祖先定位。
+* fixed：相对于浏览器窗口定位。
+
+可以使用 top，bottom，left，right 属性，将元素从 position 属性指定的元素中移除。
+**静态定位**：
+* 默认 HTML 元素处于静态。
+* 根据页面的正常流动定位。
+* 不受上右下左属性的影响。
+
+**固定定位**
+* 相对于浏览器的窗口放置，占据相同的位置，即使内容的其余部分向上或向下滚动。
+* 固定元素从正常流中移除。固定定位的元素可以与其他元素重叠。
