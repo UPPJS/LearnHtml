@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            width: 200px;
+            background-color: #ffffff;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid #000000;
+        }
+
+        p.one {
+            z-index: 3;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        p.two {
+            z-index: 1;
+            position: absolute;
+            left:150px;
+            top: 25px;
+        }
+
+        p.three {
+            z-index: 2;
+            position: absolute;
+            left: 40px;
+            top: 35px;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <p class="one">
+        Here is paragraph <b>one</b>.This will be at the top of the page.
+    </p>
+    <p class="two">
+        Here is paragraph <b>two</b>.This will be underneath the other elements.
+    </p>
+    <p class="three">
+        Here is paragraph <b>three</b>.This will be at the bottom of the page.
+    </p>
+</div>
+</body>
+</html>

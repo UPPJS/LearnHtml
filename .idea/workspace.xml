@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutabsolute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutrelative.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutzindex.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_2.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutstatic.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_3.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfixed_1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_4.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfixed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -29,12 +38,22 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1942">
+                <caret line="700" column="34" lean-forward="false" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wm_hover.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/testcss/test_wm/wm_hover.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,12 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_css/test_box/box_box.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_layout/layout_display.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_layout/layout_position_1.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_layout/layout_position_2.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_layout/layout_position_3.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_wm/wm_hover.html" />
         <option value="$PROJECT_DIR$/test/test_css/test_wm/wm_media.html" />
         <option value="$PROJECT_DIR$/test/test_css/test_css_1/css_layout.html" />
         <option value="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_two.html" />
@@ -123,6 +136,12 @@
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layout_position_1.html" />
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layout_position_2.html" />
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layout_position_4.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layout_position_5.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layout_position_6.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutabsolute.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutzindex.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html" />
+        <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -134,8 +153,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="382" />
-    <option name="y" value="45" />
+    <option name="x" value="587" />
+    <option name="y" value="53" />
     <option name="width" value="980" />
     <option name="height" value="738" />
   </component>
@@ -320,7 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -351,7 +369,7 @@
               <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="testcss" type="462c0819:PsiDirectoryNode" />
-              <item name="test_layout" type="462c0819:PsiDirectoryNode" />
+              <item name="test_wm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -363,6 +381,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -569,7 +588,8 @@
       <workItem from="1513327179762" duration="5787000" />
       <workItem from="1513386600336" duration="1383000" />
       <workItem from="1513433306318" duration="7118000" />
-      <workItem from="1513469819596" duration="29000" />
+      <workItem from="1513469819596" duration="184000" />
+      <workItem from="1513474122887" duration="4969000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -802,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513442075540</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="idea 20171217">
+      <created>1513469860108</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1513469860108</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122900000" />
+    <option name="totallyTimeSpent" value="128024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -825,7 +852,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,25 +907,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/jjj.html" />
-    <entry file="file://$PROJECT_DIR$/test/jjjj.html" />
-    <entry file="file://$PROJECT_DIR$/1.html" />
-    <entry file="file://$PROJECT_DIR$/11.html" />
-    <entry file="file://$PROJECT_DIR$/test/111.html" />
-    <entry file="file://$PROJECT_DIR$/html_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1154,10 +1162,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layout_position_3.html">
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutrelative.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutstatic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutfixed_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,28 +1190,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layout_position_2.html">
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutfixed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layout_position_4.html">
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layout_position_5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutabsolute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutzindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcss/test_wm/wm_hover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1942">
+            <caret line="700" column="34" lean-forward="false" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p.toggle {
+            float: left;
+            border: medium double black;
+            width: 40%;
+            margin: 2px;
+            padding: 2px;
+        }
+        p.cleared {
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+<p class="toggle">This is a test.</p>
+<p class="toggle  cleared">This is a test.</p>
+<p>This is a test.</p>
+<p>
+    <button>Left</button>
+    <button>right</button>
+    <button>None</button>
+</p>
+<script>
+    var buttons = document.getElementsByTagName("BUTTON");
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].onclick = function(e) {
+            var elements = document.getElementsByClassName("toggle");
+            for (var j = 0; j < elements.length; j++) {
+                elements[j].style.cssFloat = e.target.innerHTML;
+            }
+        };
+    }
+</script>
+</body>
+</html>
