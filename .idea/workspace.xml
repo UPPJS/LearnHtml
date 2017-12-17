@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/happy_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/happy_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/moreright.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/unhappy_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/unhappy_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/work.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/web20171217.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mystyle/mystyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldindex/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_log/20170907" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_log/20170909" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css_1.html" afterPath="$PROJECT_DIR$/oldindex/css_1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/home_1.html" afterPath="$PROJECT_DIR$/oldindex/home_1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html_1.html" afterPath="$PROJECT_DIR$/oldindex/html_1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/oldindex/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js_1.html" afterPath="$PROJECT_DIR$/oldindex/js_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/John.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/John.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_index/index_taihe/index_taihe.html" afterPath="$PROJECT_DIR$/test/test_index/index_taihe/index_taihe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,16 +44,43 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="900">
-                <caret line="705" column="19" lean-forward="false" selection-start-line="705" selection-start-column="19" selection-end-line="705" selection-end-column="19" />
+              <first_editor relative-caret-position="437">
+                <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="69" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moreright.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic/moreright.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mystyle/mystyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,11 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_css/test_wm/wm_media.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_css_1/css_layout.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_two.html" />
-        <option value="$PROJECT_DIR$/test/test_css/test_css_1/css_layout_three.html" />
-        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/test/test_index/index_test_1.css" />
         <option value="$PROJECT_DIR$/test/test_index/index_test_1.html" />
         <option value="$PROJECT_DIR$/test/test_index/index_1/index_test_1.html" />
@@ -124,6 +165,11 @@
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html" />
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/log/web20171217.md" />
+        <option value="$PROJECT_DIR$/oldindex/index.html" />
+        <option value="$PROJECT_DIR$/mystyle/mystyle.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -133,9 +179,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="164" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="431" />
+    <option name="y" value="108" />
     <option name="width" value="980" />
     <option name="height" value="738" />
   </component>
@@ -320,7 +366,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,32 +379,13 @@
             <path>
               <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testpic" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,16 +399,16 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_index\index_taihe" />
+      <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\photo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John\GitHub\simbaping.github.io\oldindex" />
       <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_index\index_taihe" />
       <recent name="C:\Users\John\WebstormProjects\simbaping.github.io" />
       <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_index\index_2" />
       <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_index\index_1" />
-      <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\test\test_index\index_taihe" />
-      <recent name="C:\Users\John\WebstormProjects\simbaping.github.io\photo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,7 +593,8 @@
       <workItem from="1513433306318" duration="7118000" />
       <workItem from="1513469819596" duration="184000" />
       <workItem from="1513474122887" duration="5800000" />
-      <workItem from="1513492099036" duration="7344000" />
+      <workItem from="1513492099036" duration="7378000" />
+      <workItem from="1513510426131" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -860,14 +890,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513497337549</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="idea 20171217">
+      <created>1513500072600</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1513500072600</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136199000" />
+    <option name="totallyTimeSpent" value="139922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="164" width="980" height="738" extended-state="0" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -883,7 +920,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27904564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27891654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -903,6 +940,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -938,70 +978,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testtest/timego.html" />
-    <entry file="file://$PROJECT_DIR$/test/testhtml/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/pagecontent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="10" lean-forward="false" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/hyperlink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="87" column="2" lean-forward="false" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/figure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/image.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testhtml/iframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testhtml/forms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1023,7 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
+    <entry file="file://$PROJECT_DIR$/oldindex/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
@@ -1073,14 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_1.html">
+    <entry file="file://$PROJECT_DIR$/oldindex/js_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
@@ -1270,14 +1239,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23155">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513521835173" expanded="true" signature="67458:67475" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67268:67286" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67268:67299" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67268:67314" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67349:67704" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67362:67689" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67410:67675" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67429:67660" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67462:67640" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67502:67606" ph="..." />
+            <marker date="1513521835173" expanded="true" signature="67523:67584" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/web20171217.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="900">
-            <caret line="705" column="19" lean-forward="false" selection-start-line="705" selection-start-column="19" selection-end-line="705" selection-end-column="19" />
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldindex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mystyle/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/work.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/update_bug.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/update_bug.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/moon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/moon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="437">
+            <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="69" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/moreright.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
