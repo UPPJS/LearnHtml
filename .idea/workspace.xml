@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/bug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/John.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/John.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="437">
-                <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="69" />
+              <first_editor relative-caret-position="356">
+                <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -42,27 +45,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="190">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oldindex/home_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moreright.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pic/moreright.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -91,6 +77,9 @@
       <find>&lt;</find>
       <find>&gt;</find>
       <find>&gt;`-</find>
+      <find>链接</find>
+      <find>target</find>
+      <find>base</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -110,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_index/index_test_1.css" />
         <option value="$PROJECT_DIR$/test/test_index/index_test_1.html" />
         <option value="$PROJECT_DIR$/test/test_index/index_1/index_test_1.html" />
         <option value="$PROJECT_DIR$/test/test_index/index_2/index_2.html" />
@@ -155,11 +143,12 @@
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutzindex.html" />
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html" />
         <option value="$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/log/web20171217.md" />
         <option value="$PROJECT_DIR$/oldindex/index.html" />
         <option value="$PROJECT_DIR$/mystyle/mystyle.css" />
+        <option value="$PROJECT_DIR$/log/bug" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -366,6 +355,11 @@
             <path>
               <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -590,14 +584,7 @@
       <workItem from="1513469819596" duration="184000" />
       <workItem from="1513474122887" duration="5800000" />
       <workItem from="1513492099036" duration="7378000" />
-      <workItem from="1513510426131" duration="6062000" />
-    </task>
-    <task id="LOCAL-00002" summary="idea web 测试">
-      <created>1509424412154</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1509424412154</updated>
+      <workItem from="1513510426131" duration="8372000" />
     </task>
     <task id="LOCAL-00003" summary="idea web 测试1">
       <created>1509424590446</created>
@@ -935,11 +922,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513524186433</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="idea 20171217">
+      <created>1513524259561</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1513524259561</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142295000" />
+    <option name="totallyTimeSpent" value="144605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -1016,13 +1010,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/testhtml/form_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testhtml/form_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1268,17 +1255,17 @@
         <state relative-caret-position="-23155">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513524190961" expanded="true" signature="67458:67475" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68003:68021" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68003:68034" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68003:68049" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68084:68439" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68097:68424" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68145:68410" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68164:68395" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68197:68375" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68237:68341" ph="..." />
-            <marker date="1513524190961" expanded="true" signature="68258:68319" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="67458:67475" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68002:68020" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68002:68033" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68002:68048" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68083:68438" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68096:68423" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68144:68409" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68163:68394" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68196:68374" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68236:68340" ph="..." />
+            <marker date="1513533994738" expanded="true" signature="68257:68318" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1291,14 +1278,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mystyle/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,17 +1306,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="437">
-            <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="69" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pic/moreright.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1359,18 +1327,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/bug">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oldindex/home_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mystyle/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="356">
+            <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>

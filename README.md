@@ -94,7 +94,7 @@
 * `<script src="simple.js">``</script>`
 
 `<noscript>`：向其显示为内容已禁止 JS，或正在使用浏览器的用户不支持它。<br>
-`<base>` : 用来定义整个文件中的链接跳转属性。必须放在 `<head></head>` 里面。<br>
+`<base>` : 用来定义整个文件中的链接跳转属性 `<base target="_blank"/>`。必须放在 `<head></head>` 里面。<br>
 >---
 #### 区块 `<span>` `<div>`
 块级元素：
