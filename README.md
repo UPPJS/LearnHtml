@@ -1,4 +1,4 @@
-# [HTML](#HTML目录)[CSS](#CSS目录)[JavaScript](#HTML目录)
+# [HTML](#HTML目录) [CSS](#CSS目录) [JavaScript](#HTML目录)
 ---
 ## HTML 目录
 * [一、基础介绍](#基础介绍)
@@ -475,6 +475,8 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * optimum 属性指定“刚好正确”的值。
 
 ---
+[回到顶部](#HTML目录)
+---
 ## CSS 目录
 * [一、简介](#简介)
 * [二、值](#值)
@@ -486,7 +488,7 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
     * [链接](#链接)
     * [列表](#列表)
     * [表格](#表格)
-    * [盒模型](#盒模型)
+    * [盒模型 Box Model](#盒模型BoxModel)
     * [轮廓 Outline](#轮廓-Outline)
     * [外边距 Margin](#外边距-Margin)
     * [边框 Border](#边框-Border)
@@ -557,10 +559,15 @@ CSS选择器可以基于其id，类，类型，属性，属性值等选择HTML�
 * 属性选择器（a[rel="external"]）。
 * 伪类选择器（a:hover, li:nth-child）。
 
+分组和嵌套选择器。
+
 >---
 #### 背景
 background-color 设置元素的背景颜色。颜色在任何图像后面绘制。<br>
-background-image 设置元素的背景图像。如果指定了多个图像，则每个后续图像都绘制在其前面的图像之后。<br>
+background-image 设置元素的背景图像。
+* 如果指定了多个图像，则每个后续图像都绘制在其前面的图像之后。<br>
+* 默认情况下，此属性会在页面的水平或垂直方向平铺。
+
 background-repeat 设置图像的重复样式。
 * repeat-x - 水平重复图像; 图像可能会碎片化。
 * repeat-y - 垂直重复图像; 图像可能会碎片化。
@@ -578,8 +585,8 @@ background 简写元素。<br>
 >---
 #### 文本
 >---
->颜色。<br>
->对齐方式 text-align。
+颜色。<br>
+对齐方式 text-align。
 * 它的值：start, end, left, right, center, justify。
 
 文本修饰 text-decoration。
@@ -594,7 +601,7 @@ background 简写元素。<br>
 >---
 #### 字体
 font-family 字体系列。按照首选项的顺序指定字体。浏览器以第一个字体开始。<br>
-font-size 字体大小。<br>
+font-size 字体大小。浏览器默认的文字大小是“16px”，16px == 1em。推荐使用`em`。<br>
 font-weight 权重。类似于颜色深浅。<br>
 font-style 斜体字。<br>
 还有更多……<br>
@@ -605,6 +612,17 @@ font-style 斜体字。<br>
 * a:visited - 已访问的链接
 * a:hover - 一个悬停（mouses over it）链接。
 * a:active - 链接正在点击。
+
+>---
+#### 伪类
+除了链接的四种伪类之外，还有几种。
+* focus	        input:focus	选择元素输入后具有焦点。
+* first-letter	p:first-letter	选择每个<p> 元素的第一个字母。
+* first-line	p:first-line	选择每个<p> 元素的第一行。
+* first-child	p:first-child	选择器匹配属于任意元素的第一个子元素的 <p> 元素。
+* before	    p:before	在每个<p>元素之前插入内容。
+* after	        p:after	在每个<p>元素之后插入内容。
+* lang(language)	p:lang(it)	为<p>元素的lang属性选择一个开始值
 
 >---
 #### 列表
@@ -626,23 +644,24 @@ list-style 简写属性。后面直接跟相关值。<br>
 * vertical-align 垂直对齐。
 
 >---
-#### 盒模型
+#### 盒模型 Box Model
 每个 HTML 元素都带有边框，边距，填充，内容的矩形框。
 * Margin：边界外的透明区域。
 * Border：边框在填充和内容的周围。
 * padding：内容周围的透明区域。
 * Content：实际文本和图像。
 
-![盒模型](https://github.com/SimbaPing/simbaping.github.io/test/testpic/box-model.gif)<br>
+![盒模型](https://github.com/SimbaPing/simbaping.github.io/blob/master/photo/header.jpg)<br>
 >---
 #### 轮廓 Outline
-是最外的边界线。不是元素尺寸的一部分。
-轮廓不被视为页面的一部分，因此咋应用他们时不会导致页面布局被调整。
-outline-color 将颜色设置为轮廓。Value: color
-outline-offset 设置轮廓的偏移量。Value:length
-outline-style 设置轮廓的样式。此值与border-style属性的值相同。
-outline-width 设置轮廓的宽度。Value:thin or medium or thick or length
+是最外的边界线。不是元素尺寸的一部分。<br>
+轮廓不被视为页面的一部分，因此咋应用他们时不会导致页面布局被调整。<br>
+outline-color 将颜色设置为轮廓。Value: color<br>
+outline-offset 设置轮廓的偏移量。Value:length<br>
+outline-style 设置轮廓的样式。此值与border-style属性的值相同。<br>
+outline-width 设置轮廓的宽度。Value:thin or medium or thick or length<br>
 outline 简写属性在单个声明中设置轮廓。Value: color style width<br>
+
 >---
 #### 外边距 Margin
 Margin外边距是元素边界与其周围之间的距离。这包括其他元素和父元素。
@@ -652,7 +671,7 @@ Margin外边距是元素边界与其周围之间的距离。这包括其他元�
 * margin-left 设置左边的边距。Value: auto length %
 * margin 此简写属性在单个声明中设置所有边的边距。Value: 1 - 4 auto length %
 
-百分比值始终从包含块的宽度导出，即使用于填充顶部和底部边缘。
+百分比值始终从包含块的宽度导出，即使用于填充顶部和底部边缘。<br>
 对于内联元素，其边距不会显示在顶部和底部边缘。<br>
 >---
 #### 边框 Border
@@ -679,6 +698,12 @@ max-width，max-height：设置元素的最大可接受宽度或高度。Value: 
 box-sizing：设置元素框的哪个部分用于大小调整。Value: content-box or padding-box or border-box or margin-box<br>
 所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。
 
+>---
+#### 水平对齐
+块元素对齐，块元素是一个元素，占用了全宽，前后都是换行符。<br>
+中心对齐，使用 `margin：auto`。<br>
+position 属性设置左右对齐。<br>
+float 属性设置左右对齐。<br>
 ---
 ### 四、布局 Layout
 >---
@@ -763,3 +788,7 @@ inline-block 值混合块和内联特性。
 * screen：用于电脑显示器。
 * tty：用于使用固定密度字母栅格的媒体，比如电传打字机和终端。
 * tv：用于电视机类型的设备。
+
+---
+[回到顶部](#HTML目录)
+---
