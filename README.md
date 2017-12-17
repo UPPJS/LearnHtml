@@ -1,4 +1,4 @@
-# HTML CSS  JS
+# [HTML](#HTML目录)[CSS](#CSS目录)[JavaScript](#HTML目录)
 ---
 ## HTML 目录
 * [一、基础介绍](#基础介绍)
@@ -32,30 +32,6 @@
     * [`<progress>`](#progress)
     * [`<meter>`](#meter)
     
----
-## CSS 目录
-* [一、简介](#简介)
-* [二、值](#值)
-* [三、基本样式](#基本样式)
-    * [选择器](#选择器)
-    * [背景](#背景)
-    * [文本](#文本)
-    * [字体](#字体)
-    * [链接](#链接)
-    * [列表](#列表)
-    * [表格](#表格)
-    * [盒模型](#盒模型)
-    * [轮廓 Outline](#轮廓Outline)
-    * [外边距 Margin](#外边距Margin)
-    * [边框 Border](#边框Border)
-    * [填充 Padding](#填充Padding)
-    * [尺寸 Size](#尺寸size)
-* [四、布局 Layout](#布局Layout)
-    * [显示 Display](#显示Display)
-    * [定位 Position](#定位Position)
-    * [浮动 Float](#浮动Float)
-* [五、媒体类型](#媒体类型)
-
 ---
 ### 一、基础介绍
 >---
@@ -499,7 +475,29 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 * optimum 属性指定“刚好正确”的值。
 
 ---
-## CSS
+## CSS 目录
+* [一、简介](#简介)
+* [二、值](#值)
+* [三、基本样式](#基本样式)
+    * [选择器](#选择器)
+    * [背景](#背景)
+    * [文本](#文本)
+    * [字体](#字体)
+    * [链接](#链接)
+    * [列表](#列表)
+    * [表格](#表格)
+    * [盒模型](#盒模型)
+    * [轮廓 Outline](#轮廓-Outline)
+    * [外边距 Margin](#外边距-Margin)
+    * [边框 Border](#边框-Border)
+    * [填充 Padding](#填充-Padding)
+    * [尺寸 Size](#尺寸-size)
+* [四、布局 Layout](#布局-Layout)
+    * [显示 Display](#显示-Display)
+    * [定位 Position](#定位-Position)
+    * [浮动 Float](#浮动-Float)
+* [五、媒体类型](#媒体类型)
+
 ---
 ### 一、简介
 >---
