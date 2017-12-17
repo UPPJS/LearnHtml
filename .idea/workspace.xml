@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutabsolute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutclear.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfloat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutrelative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutzindex.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_2.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutstatic.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_3.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfixed_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/testcss/test_layout/layout_position_4.html" afterPath="$PROJECT_DIR$/test/testcss/test_layout/layoutfixed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -39,21 +30,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1942">
-                <caret line="700" column="34" lean-forward="false" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wm_hover.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testcss/test_wm/wm_hover.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +133,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="587" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="318" />
+    <option name="y" value="142" />
     <option name="width" value="980" />
     <option name="height" value="738" />
   </component>
@@ -589,7 +570,7 @@
       <workItem from="1513386600336" duration="1383000" />
       <workItem from="1513433306318" duration="7118000" />
       <workItem from="1513469819596" duration="184000" />
-      <workItem from="1513474122887" duration="4969000" />
+      <workItem from="1513474122887" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -829,14 +810,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513469860108</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="idea 20171217">
+      <created>1513479683212</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1513479683213</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128024000" />
+    <option name="totallyTimeSpent" value="128803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <frame x="318" y="142" width="980" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -852,7 +840,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27904564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1253,8 +1241,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1942">
-            <caret line="700" column="34" lean-forward="false" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
