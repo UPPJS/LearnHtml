@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/happy_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/happy_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/moreright.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/unhappy_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/unhappy_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pic/work.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/web20171217.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mystyle/mystyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldindex/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README_log/20170907" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README_log/20170909" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css_1.html" afterPath="$PROJECT_DIR$/oldindex/css_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home_1.html" afterPath="$PROJECT_DIR$/oldindex/home_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html_1.html" afterPath="$PROJECT_DIR$/oldindex/html_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/oldindex/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js_1.html" afterPath="$PROJECT_DIR$/oldindex/js_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/John.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/John.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_index/index_taihe/index_taihe.html" afterPath="$PROJECT_DIR$/test/test_index/index_taihe/index_taihe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,6 +44,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldindex/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldindex/home_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -379,6 +380,11 @@
             <path>
               <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="oldindex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simbaping.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simbaping.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -594,7 +600,7 @@
       <workItem from="1513469819596" duration="184000" />
       <workItem from="1513474122887" duration="5800000" />
       <workItem from="1513492099036" duration="7378000" />
-      <workItem from="1513510426131" duration="3689000" />
+      <workItem from="1513510426131" duration="4322000" />
     </task>
     <task id="LOCAL-00001" summary="idea web">
       <created>1509423676658</created>
@@ -897,11 +903,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513500072600</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="idea 20171217">
+      <created>1513521892839</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1513521892839</updated>
+    </task>
+    <task id="LOCAL-00045" summary="idea 20171217">
+      <created>1513522302843</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1513522302843</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139922000" />
+    <option name="totallyTimeSpent" value="140555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -978,13 +998,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/testhtml/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testhtml/form_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -996,13 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldindex/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1244,17 +1250,17 @@
         <state relative-caret-position="-23155">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513521835173" expanded="true" signature="67458:67475" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67268:67286" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67268:67299" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67268:67314" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67349:67704" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67362:67689" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67410:67675" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67429:67660" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67462:67640" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67502:67606" ph="..." />
-            <marker date="1513521835173" expanded="true" signature="67523:67584" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="67458:67475" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65726:65744" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65726:65757" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65726:65772" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65807:66162" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65820:66147" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65868:66133" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65887:66118" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65920:66098" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65960:66064" ph="..." />
+            <marker date="1513522315077" expanded="true" signature="65981:66042" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1267,14 +1273,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldindex/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,6 +1323,30 @@
     <entry file="file://$PROJECT_DIR$/pic/moreright.ico">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldindex/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldindex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldindex/home_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
