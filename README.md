@@ -16,7 +16,8 @@
 * 布尔属性是没有值得属性，例如 disable。
 
 `<!DOCTYPE HTML>` 声明，不区分大小写。<br>
-嵌套。<br>
+嵌套。
+
 ---
 ### 二、基本标签
 >---
@@ -201,7 +202,7 @@ enctype 属性指定浏览器如何编码数据并将其呈现给服务器。
   * application/x-www-form-urlencoded 默认，无法上传文件。
   * multipart/form-data 将文件上传给服务器。
   * text/plain 因浏览器而异。
-  
+
 >---
 #### 表单属性
 ？如果不想让浏览器自动填写表单，可以用 autocomplete 属性。
@@ -447,9 +448,9 @@ HTML5 引入了对输入验证的支持，通过属性管理输入验证。
 ---
 ### 一、简介
 >---
-层叠样式表，(Cascading Style Sheets)。<br>
-定义如何显示 HTML 元素。<br>
-样式：
+>层叠样式表，(Cascading Style Sheets)。<br>
+>定义如何显示 HTML 元素。<br>
+>样式：
 * 内联，嵌入式，外部样式表。
 * 使用 @import 语句将样式从一个样式表导入到另一个样式表。`@import "styles.css";`
 
@@ -475,7 +476,7 @@ CSS 注释以“ /* ”开头，以“ */ ”结尾，`/*This is comment*/`<br>
 >---
 ### 二、值
 >---
-颜色：
+>颜色：
 * 名称：`black`。
 * 十六进制（HEXCOLOR）：`#000000`。
 * RGB 颜色：`rgb(0,0,0)`。
@@ -524,8 +525,8 @@ background 简写元素。<br>
 >---
 #### 文本
 >---
-颜色。<br>
-对齐方式 text-align。
+>颜色。<br>
+>对齐方式 text-align。
 * 它的值：start, end, left, right, center, justify。
 
 文本修饰 text-decoration。
@@ -619,12 +620,12 @@ padding 此简写属性在单个声明中设置所有边的填充。<br>
 四个边都有数值。<br>
 >---
 #### 尺寸 Size
-
 width，height：设置元素的宽度和高度。Value: auto or length or %<br>
 min-width，min-height：设置元素的最小可接受宽度或高度。Value: auto or length or %<br>
 max-width，max-height：设置元素的最大可接受宽度或高度。Value: auto length %<br>
 box-sizing：设置元素框的哪个部分用于大小调整。Value: content-box or padding-box or border-box or margin-box<br>
-所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。<br>
+所有这些属性的默认值都是 auto，浏览器会找出元素的宽度和高度。
+
 ---
 ### 四、布局 Layout
 >---
