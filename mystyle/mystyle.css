@@ -8,30 +8,29 @@ div {
 header {
     width: auto;
     height: 50px;
-    background-color: red;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
 }
-.head_img {
-    height: 50px;
-    text-align: center;
-}
+
 .head_img img{
-    width: 55px;
-    height: 40px;
-    margin: auto 20px;
+    width: 68px;
+    height: 50px;
+    margin: 0 0 0 60px;
     padding: 0;
     float: left;
 }
-.head_menu {
-    list-style: none;
-    margin: 0 20px 0 0;
-    padding: 0;
-    float: right;
-}
 a {
-    text-decoration: none; /*去掉链接中的下划线*/
+    text-decoration:none;
 }
-.head_menu li {
-    display: inline;
-    margin: 0 10px 0 0;
-    line-height: 50px; /*为了导航栏能够垂直居中，设置与头部同高*/
 }
+.head_url {height:50px; margin:0 auto; padding: 0;}
+.head_url ul{ list-style:none;}
+.head_url ul li{ float:right; line-height:50px; text-align:center;}
+.head_url ul li a{color:#000; display:block; padding:0px 10px;}
+.head_url ul li a:hover{ color:#FFF; background:#333}
+/*下面是下拉菜单的内容*/
+.head_url ul li ul{display:none;}
+.head_url ul li ul li{ float:none; line-height:30px; text-align:left;}
+.head_url ul li ul li a{ width:100%;}
+.head_url ul li ul li a:hover{ background-color:#06f;}
+.head_url ul li:hover ul{ display:block}
