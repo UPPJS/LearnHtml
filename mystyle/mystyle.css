@@ -12,25 +12,37 @@ header {
     background-blend-mode: multiply,multiply;
 }
 
+.head_img {
+    margin: 0 0 0 60px;
+    padding: 0;
+    height: 50px;
+    width: 10%;
+    float: left;
+}
 .head_img img{
     width: 68px;
     height: 50px;
-    margin: 0 0 0 60px;
+    margin: 0;
     padding: 0;
-    float: left;
+    display: inline;
 }
 a {
     text-decoration:none;
 }
-}
-.head_url {height:50px; margin:0 auto; padding: 0;}
-.head_url ul{ list-style:none;}
-.head_url ul li{ float:right; line-height:50px; text-align:center;}
-.head_url ul li a{color:#000; display:block; padding:0px 10px;}
+.head_url {height:50px; width: 50%; margin:0; padding: 0; float: right;}
+.head_url ul{ list-style:none; margin: 0; padding: 0;}
+.head_url ul li{line-height:50px; text-align:center; display: inline;}
+.head_url ul li a{color:#000; padding:0px 10px; display: inline-block;}
 .head_url ul li a:hover{ color:#FFF; background:#333}
-/*下面是下拉菜单的内容*/
+/*下面是下拉菜单的内容
 .head_url ul li ul{display:none;}
 .head_url ul li ul li{ float:none; line-height:30px; text-align:left;}
 .head_url ul li ul li a{ width:100%;}
 .head_url ul li ul li a:hover{ background-color:#06f;}
 .head_url ul li:hover ul{ display:block}
+*/
+.head_url ul li ul{}
+.head_url ul li ul li{}
+.head_url ul li ul li a{}
+.head_url ul li ul li a:hover{}
+.head_url ul li:hover ul{}
