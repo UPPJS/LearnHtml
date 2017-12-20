@@ -41,7 +41,8 @@ a {
 .head_url ul li ul li a:hover{ background-color:#06f;}
 .head_url ul li:hover ul{ display:block}
 */
-.head_url ul li ul{}
+.head_url ul li ul{
+    display: none;}
 .head_url ul li ul li{}
 .head_url ul li ul li a{}
 .head_url ul li ul li a:hover{}
