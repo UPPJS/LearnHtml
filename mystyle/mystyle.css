@@ -34,9 +34,9 @@ a {
 }
 .head_url {height:50px; width: 50%; float: right;}
 .head_url {list-style:none;}
-.head_url li{line-height:50px; text-align:center; display: inline;}
-.head_url li a{color:#000; padding:0 10px; display: inline-block;}
-.head_url li a:hover{color:#FFF; background:#333}
+.head_url>li{line-height:50px; text-align:center; display: inline;}
+.head_url>li>a{color:#000; padding:0 10px; display: inline-block;}
+.head_url>li>a:hover{color:#FFF; background:#333}
 /*下面是下拉菜单的内容
 .head_url ul li ul{display:none;}
 .head_url ul li ul li{ float:none; line-height:30px; text-align:left;}

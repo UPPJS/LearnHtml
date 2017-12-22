@@ -4,11 +4,3 @@
     * 布局的设计。
     * 需要添加什么信息。
 
-## 结构
-* header
-    * logo
-    * mainMenu
-        * subMenu
-* .mainbody
-* footer
-    * copyright
