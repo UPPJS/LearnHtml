@@ -789,5 +789,53 @@ inline-block 值混合块和内联特性。
 * screen：用于电脑显示器。
 * tty：用于使用固定密度字母栅格的媒体，比如电传打字机和终端。
 * tv：用于电视机类型的设备。
-
 ---
+>---
+### 六、响应式设计
+>---
+#### Viewport
+Viewport 是用户网页的可视区域，“视区”。
+手机浏览器把页面放在一个虚拟的“视区”中。
+设置 Viewport：
+* width：控制 viewport 的大小，可以指定的一个值，如果 600，或者特殊的值，如 device-width 为设备的宽度（单位为缩放为 100% 时的 CSS 的像素）。
+* height：和 width 相对应，指定高度。
+* initial-scale：初始缩放比例，也即是当页面第一次 load 的时候缩放比例。
+* maximum-scale：允许用户缩放到的最大比例。
+* minimum-scale：允许用户缩放到的最小比例。
+* user-scalable：用户是否可以手动缩放。
+>---
+#### 网格视图
+响应式网格视图通常为12列，宽度为100%，在浏览器窗口大小调整时会自动伸缩。
+确保 `* {box-sizing: border-box;}`。
+```css
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*控制整个网格视图的格式*/
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    border:
+}
+```
+>---
+
+#### 媒体查询
+>---
+
+#### 图片
+>---
+
+#### 视频
+>---
+
+#### 框架

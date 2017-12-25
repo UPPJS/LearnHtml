@@ -309,5 +309,103 @@ inline-block 值混合块和内联特性。
 * screen：用于电脑显示器。
 * tty：用于使用固定密度字母栅格的媒体，比如电传打字机和终端。
 * tv：用于电视机类型的设备。
+>---
+### 六、响应式设计
+>---
+#### Viewport 视区
+Viewport 是用户网页的可视区域。
+翻译为中文可以叫做“视区”。
+手机浏览器是把页面放在一个虚拟的“视区”中。
+设置：
+width：控制 viewport 的大小，可以指定的一个值，如果 600，或者特殊的值，如 device-width 为设备的宽度（单位为缩放为 100% 时的 CSS 的像素）。
+height：和 width 相对应，指定高度。
+initial-scale：初始缩放比例，也即是当页面第一次 load 的时候缩放比例。
+maximum-scale：允许用户缩放到的最大比例。
+minimum-scale：允许用户缩放到的最小比例。
+user-scalable：用户是否可以手动缩放。
+>---
+#### 网格视图
+网格视图通常为12列，宽度为100%，在浏览器窗口大小调整时会自动伸缩。
+确保`* {box-sizing: border-box;}`。
+```css
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+```
+>---
+#### @media 媒体查询
+添加断点，不同的断点有不同的效果。
+```css
+/*当屏幕尺寸小于768px时，每一列的宽度为100%。*/
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+```
+方向：
+* `orientation：portrait | landscape`
+* 竖屏-portrait：指定输出设备中的页面可见区域高度大于或等于宽度。
+* 横屏-landscape： 除portrait值情况外，都是landscape。
+```css
+/*如果是横屏背景色为浅蓝色。*/
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
+```
+>---
+#### 图片
+width 属性，如果 width 属性设置为 100%，图片会根据上下范围实现响应式功能。img {width: 100%; height: auto;}<br>
+max-width 属性，如果 max-width 属性设置为 100%, 图片永远不会大于其原始大小。img {max-width:100%; height: auto;}<br>
+背景图片，响应调整大小或缩放的三种方法。
+* 如果 background-size 属性设置为 "contain", 背景图片将按比例自适应内容区域。图片保持其比例不变。
+* 如果 background-size 属性设置为 "100% 100%" ，背景图片将延展覆盖整个区域。
+* 如果 background-size 属性设置为 "cover"，则会把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。注意该属性保持了图片的比例因此 背景图像的某些部分无法显示在背景定位区域中。
+
+不同设备显示不同的图片。
+* @media only screen and (min-width: 400px) { }，达到宽度即更换图片。
+* @media only screen and (min-device-width: 400px) { }，检测到设备宽度不是浏览器宽度时，不更换图片。
+
+`<picture>` 元素可以设置多张图片。类似于 `<video>` 和 `<audio>`。
+>---
+#### Video 视频
+`video {width: 100%;height: auto;}` 根据屏幕大小自动调整比例。<br>
+`video {max-width: 100%;height: auto;}` 根据屏幕调整比例，但不会超过其原始大小。<br>
+在网页中添加视频。
+>---
+#### 框架
+web 设计框架 bootstrap。<br>
+Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的。
 ---
