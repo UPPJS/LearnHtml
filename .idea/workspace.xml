@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="">
+    <list default="true" id="7cc10aac-d8ae-45fb-a11a-001bd02930db" name="Default" comment="idea 20171226">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/log/CSS.md" afterPath="$PROJECT_DIR$/log/CSS.md" />
-      <change beforePath="$PROJECT_DIR$/oldindex/css_1.html" afterPath="$PROJECT_DIR$/old/oldindex/css_1.html" />
-      <change beforePath="$PROJECT_DIR$/oldindex/home_1.html" afterPath="$PROJECT_DIR$/old/oldindex/home_1.html" />
-      <change beforePath="$PROJECT_DIR$/oldindex/html_1.html" afterPath="$PROJECT_DIR$/old/oldindex/html_1.html" />
-      <change beforePath="$PROJECT_DIR$/oldindex/index.css" afterPath="$PROJECT_DIR$/old/oldindex/index.css" />
-      <change beforePath="$PROJECT_DIR$/oldindex/index.html" afterPath="$PROJECT_DIR$/old/oldindex/index.html" />
-      <change beforePath="$PROJECT_DIR$/oldindex/js_1.html" afterPath="$PROJECT_DIR$/old/oldindex/js_1.html" />
-      <change beforePath="$PROJECT_DIR$/test/again/dropdown.html" afterPath="$PROJECT_DIR$/old/testdropnav/dropdown.html" />
-      <change beforePath="$PROJECT_DIR$/test/again/navigation.html" afterPath="$PROJECT_DIR$/old/testdropnav/navigation.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_baidu/baidu.css" afterPath="$PROJECT_DIR$/old/test_baidu/baidu.css" />
-      <change beforePath="$PROJECT_DIR$/test/test_baidu/baidu.html" afterPath="$PROJECT_DIR$/old/test_baidu/baidu.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_1/index_test_1.css" afterPath="$PROJECT_DIR$/old/test_index/index_1/index_test_1.css" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_1/index_test_1.html" afterPath="$PROJECT_DIR$/old/test_index/index_1/index_test_1.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_2/home.png" afterPath="$PROJECT_DIR$/old/test_index/index_2/home.png" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_2/index_2.css" afterPath="$PROJECT_DIR$/old/test_index/index_2/index_2.css" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_2/index_2.html" afterPath="$PROJECT_DIR$/old/test_index/index_2/index_2.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_taihe/index_taihe.html" afterPath="$PROJECT_DIR$/old/test_index/index_taihe/index_taihe.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_taihe/taihe_10.html" afterPath="$PROJECT_DIR$/old/test_index/index_taihe/taihe_10.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_taihe/taihe_8.html" afterPath="$PROJECT_DIR$/old/test_index/index_taihe/taihe_8.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_index/index_taihe/taihe_9.html" afterPath="$PROJECT_DIR$/old/test_index/index_taihe/taihe_9.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_sohu/sohu.html" afterPath="$PROJECT_DIR$/old/test_sohu/sohu.html" />
-      <change beforePath="$PROJECT_DIR$/test/test_sohu/sohu_1.css" afterPath="$PROJECT_DIR$/old/test_sohu/sohu_1.css" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/figure.html" afterPath="$PROJECT_DIR$/old/testhtml/figure.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/form_1.html" afterPath="$PROJECT_DIR$/old/testhtml/form_1.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/form_2.html" afterPath="$PROJECT_DIR$/old/testhtml/form_2.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/format.html" afterPath="$PROJECT_DIR$/old/testhtml/format.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/forms.html" afterPath="$PROJECT_DIR$/old/testhtml/forms.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmlarea.html" afterPath="$PROJECT_DIR$/old/testhtml/htmlarea.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmlfieldset.html" afterPath="$PROJECT_DIR$/old/testhtml/htmlfieldset.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmllabel.html" afterPath="$PROJECT_DIR$/old/testhtml/htmllabel.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmllegend.html" afterPath="$PROJECT_DIR$/old/testhtml/htmllegend.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmlout.html" afterPath="$PROJECT_DIR$/old/testhtml/htmlout.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/htmlselect.html" afterPath="$PROJECT_DIR$/old/testhtml/htmlselect.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/hyperlink.html" afterPath="$PROJECT_DIR$/old/testhtml/hyperlink.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/iframe.html" afterPath="$PROJECT_DIR$/old/testhtml/iframe.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/image.html" afterPath="$PROJECT_DIR$/old/testhtml/image.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/list.html" afterPath="$PROJECT_DIR$/old/testhtml/list.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/pagecontent.html" afterPath="$PROJECT_DIR$/old/testhtml/pagecontent.html" />
-      <change beforePath="$PROJECT_DIR$/test/testhtml/test.html" afterPath="$PROJECT_DIR$/old/testhtml/test.html" />
-      <change beforePath="$PROJECT_DIR$/test/testindex/index_1.html" afterPath="$PROJECT_DIR$/old/testindex/index_1.html" />
-      <change beforePath="$PROJECT_DIR$/test/testindex/tindex.html" afterPath="$PROJECT_DIR$/old/testindex/tindex.html" />
-      <change beforePath="$PROJECT_DIR$/test/testpic/box-model.gif" afterPath="$PROJECT_DIR$/pic/box-model.gif" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,16 +64,16 @@
         <entry file="file://$PROJECT_DIR$/log/CSS.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="132">
-                <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+              <first_editor relative-caret-position="417">
+                <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="227" selection-end-column="4" />
                 <folding>
-                  <marker date="1514254931433" expanded="true" signature="7549:7615" ph="{...}" />
-                  <marker date="1514254931433" expanded="true" signature="7667:7697" ph="/*...*/" />
-                  <marker date="1514254931433" expanded="true" signature="7667:7716" ph="/*...*/" />
-                  <marker date="1514254931433" expanded="true" signature="8039:8120" ph="{...}" />
-                  <marker date="1514254931433" expanded="true" signature="8090:8118" ph="{...}" />
-                  <marker date="1514254931433" expanded="true" signature="8321:8378" ph="{...}" />
-                  <marker date="1514254931433" expanded="true" signature="8332:8376" ph="{...}" />
+                  <marker date="1514255275473" expanded="true" signature="7529:7595" ph="{...}" />
+                  <marker date="1514255275473" expanded="true" signature="7647:7677" ph="/*...*/" />
+                  <marker date="1514255275473" expanded="true" signature="7647:7696" ph="/*...*/" />
+                  <marker date="1514255275473" expanded="true" signature="8019:8100" ph="{...}" />
+                  <marker date="1514255275473" expanded="true" signature="8070:8098" ph="{...}" />
+                  <marker date="1514255275473" expanded="true" signature="8301:8358" ph="{...}" />
+                  <marker date="1514255275473" expanded="true" signature="8312:8356" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -634,21 +593,7 @@
       <workItem from="1514220266720" duration="3161000" />
       <workItem from="1514249465030" duration="1703000" />
       <workItem from="1514253405797" duration="399000" />
-      <workItem from="1514253869276" duration="1017000" />
-    </task>
-    <task id="LOCAL-00016" summary="idea 20171212">
-      <created>1513070769122</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1513070769122</updated>
-    </task>
-    <task id="LOCAL-00017" summary="idea 20171212">
-      <created>1513094954121</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1513094954121</updated>
+      <workItem from="1514253869276" duration="1372000" />
     </task>
     <task id="LOCAL-00018" summary="idea 20171212">
       <created>1513095051217</created>
@@ -979,11 +924,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514220671718</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="idea 20171226">
+      <created>1514254953725</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1514254953726</updated>
+    </task>
+    <task id="LOCAL-00066" summary="idea 20171226">
+      <created>1514255174657</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1514255174657</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226032000" />
+    <option name="totallyTimeSpent" value="226387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1012,6 +971,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41362917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1030,7 +990,6 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1424,16 +1383,16 @@
     <entry file="file://$PROJECT_DIR$/log/CSS.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="132">
-            <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <first_editor relative-caret-position="417">
+            <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="227" selection-end-column="4" />
             <folding>
-              <marker date="1514254931433" expanded="true" signature="7549:7615" ph="{...}" />
-              <marker date="1514254931433" expanded="true" signature="7667:7697" ph="/*...*/" />
-              <marker date="1514254931433" expanded="true" signature="7667:7716" ph="/*...*/" />
-              <marker date="1514254931433" expanded="true" signature="8039:8120" ph="{...}" />
-              <marker date="1514254931433" expanded="true" signature="8090:8118" ph="{...}" />
-              <marker date="1514254931433" expanded="true" signature="8321:8378" ph="{...}" />
-              <marker date="1514254931433" expanded="true" signature="8332:8376" ph="{...}" />
+              <marker date="1514255275473" expanded="true" signature="7529:7595" ph="{...}" />
+              <marker date="1514255275473" expanded="true" signature="7647:7677" ph="/*...*/" />
+              <marker date="1514255275473" expanded="true" signature="7647:7696" ph="/*...*/" />
+              <marker date="1514255275473" expanded="true" signature="8019:8100" ph="{...}" />
+              <marker date="1514255275473" expanded="true" signature="8070:8098" ph="{...}" />
+              <marker date="1514255275473" expanded="true" signature="8301:8358" ph="{...}" />
+              <marker date="1514255275473" expanded="true" signature="8312:8356" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

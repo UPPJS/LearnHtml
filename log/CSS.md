@@ -172,7 +172,7 @@ list-style 简写属性。后面直接跟相关值。<br>
 * padding：内容周围的透明区域。
 * Content：实际文本和图像。
 
-![盒模型](/simbaping.github.io/pic/box-model.gif)<br>
+![盒模型](/pic/box-model.gif)<br>
 >---
 #### 轮廓 Outline
 是最外的边界线。不是元素尺寸的一部分。<br>
@@ -225,7 +225,7 @@ box-sizing：设置元素框的哪个部分用于大小调整。Value: content-b
 中心对齐，使用 `margin：auto`。<br>
 position 属性设置左右对齐。<br>
 float 属性设置左右对齐。<br>
----
+>---
 ### 四、布局 Layout
 >---
 #### 显示 Display
