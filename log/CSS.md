@@ -172,7 +172,7 @@ list-style 简写属性。后面直接跟相关值。<br>
 * padding：内容周围的透明区域。
 * Content：实际文本和图像。
 
-![盒模型](//simbaping.github.io/test/testpic/box-model.gif)<br>
+![盒模型](//simbaping.github.io/pic/box-model.gif)<br>
 >---
 #### 轮廓 Outline
 是最外的边界线。不是元素尺寸的一部分。<br>
