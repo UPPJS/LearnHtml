@@ -25,4 +25,7 @@ ul,ol{list-type:none; margin:0; padding:0;}
 
 8. 错误用法：<br>
 div{~~width:auto; height:auto;~~}<br>
-li{~~display:block;~~ padding:4px 0;}<br>
+li{~~display:block;~~ padding:4px 0;}，li 本身就是块元素。<br>
+span{~~display:inline;~~ float:left; margin-left:3px;}，span 本身就是行内元素。<br>
+
+9. 顺序：<br>
