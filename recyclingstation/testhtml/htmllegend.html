@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>legend</title>
+</head>
+<body>
+<form action="http://example.com/form" method="post">
+    <fieldset>
+        <legend>Enter Your Details</legend>
+        <p>
+            <label for="name">Name: <input id="name" name="name"/></label>
+        </p>
+        <p>
+            <label for="name">City: <input id="city" name="name"/></label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Vote For Your Three Favourite Fruits</legend>
+        <p>
+            <label for="fave1">#1: <input id="fave1" name="fave1"></label>
+        </p>
+        <p>
+            <label for="fave2">#2: <input id="fave2" name="fave2"></label>
+        </p>
+        <p>
+            <label for="fave3">#3: <input id="fave3" name="fave3"></label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend accesskey="y">
+            About <u>Y</u>ou (ALT + Y)
+        </legend>
+        <p>
+            <label for="userName">User name: </label>
+            <input type="text" name="txtUserName" size="20" id="userName"/>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend accesskey="u">
+        About <u>U</u>s (ALT + U)
+        </legend>
+        <p>
+            <label for="referrer">How did you hear about us?</label>:<br/>
+            <select name="selReferrer" id="referrer">
+                <option value="" selected="selected">Select answer</option>
+                <option value="website">Another website</option>
+                <option value="printAd">Magazine ad</option>
+                <option value="friend">From a friend</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <button>Submit Vote</button>
+</form>
+</body>
+</html>

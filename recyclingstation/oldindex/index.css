@@ -1,0 +1,49 @@
+.site-header {
+    margin: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    min-width: 1129px;
+    margin: 0px;
+    padding: 0 20px;
+    height: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+    // border-bottom: 1px solid #b4b4b4;
+}
+header-l {
+    width: 60%;
+    position: absolute;
+}
+header-r {
+    width: 40%;
+    position: absolute;
+}
+.menu {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    float: right;
+}
+.menu li {
+    display: inline;
+    padding: inherit;
+}
+.menu a{
+    width: 60px;
+    padding: 6px 10px 15px;
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.menu a:link, .menu a:visited {
+    color: #808080;
+}
+.menu a:hover, .menu a:active {
+    color: #d3d3d3;
+}
