@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>js4</title>
+</head>
+<body>
+<p>一个简单的测试年龄是否达到限度，存在问题需要解决，只能识别整数，如果数据类型不对，就会没反应。</p>
+<p>点击按钮检测年龄</p>
+年龄：<input id="age" value="18" />
+<p>是否达到投票年龄？</p>
+<button onclick="myFunction()">点击按钮</button>
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        var age, voteable;
+        age = document.getElementById("age").value;
+        voteable = (age < 18)?"年龄太小":"年龄已达到";
+        document.getElementById("demo").innerHTML = voteable;
+    }
+</script>
+</body>
+</html>

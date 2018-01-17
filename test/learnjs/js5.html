@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>js5</title>
+</head>
+<body>
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        var x = "";  // 为什么要声明这是个字符串？
+        var time = new Date().getHours();  // 从时间库里提取“小时”
+        if (time < 20){  // 如果时针的数小于20
+            x = "Good day";
+        }
+    document.getElementById("demo").innerHTML = x;  // 每一次都有这句话
+    }
+</script>
+</body>
+</html>

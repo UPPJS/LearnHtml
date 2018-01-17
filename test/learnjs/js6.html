@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>js6</title>
+</head>
+<body>
+<p>我之所以做这个，是觉得这个有意思，周一至周五都在期待周末，我也是醉了。</p>
+<p>点击下面的按钮，会显示出基于今日日期的消息：</p>
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        var x;
+        var d = new Date().getDay();
+        switch (d){
+            case 6 : x = "今天是星期六";
+            break;
+            case 0 : x = "今天是周日";
+            break;
+            default:
+                x = "期待周末";
+        }
+        document.getElementById("demo").innerHTML = x;
+    }
+</script>
+</body>
+</html>
