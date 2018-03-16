@@ -13,4 +13,3 @@ Created with IntelliJ IDEA
 @time: ${DATE} ${TIME}
 """
 ```
-
