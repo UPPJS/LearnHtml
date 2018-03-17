@@ -1,6 +1,6 @@
-中文技术文档的写作规范。by  [阮一峰](https://github.com/ruanyf)
+> 中文技术文档的写作规范。by  [阮一峰](https://github.com/ruanyf)
 
-## 目录
+# 目录
 
 1. [标题](docs/title.md)
 2. [文本](docs/text.md)
