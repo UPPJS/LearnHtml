@@ -30,8 +30,6 @@
   - [图片](#图片)
   - [Video 视频](#Video-视频)
 
----
-
 ## 一、简介
 
 层叠样式表，(Cascading Style Sheets)。
