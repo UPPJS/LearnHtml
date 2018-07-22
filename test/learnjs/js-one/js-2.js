@@ -39,3 +39,12 @@ console.log(Date.parse('1992-1-25'));
 console.log(Date.UTC(1992, 0, 1, 0, 0, 0, 0));
 
 console.log(Math.E);
+
+var regex0 = /xyz/;
+var regex1 = new RegExp('xyz');
+var regex2 = new RegExp('xyz', 'i');
+var regex3 = /xyz/i;
+
+console.log(regex0.ignoreCase);
+
+console.log(JSON.stringify({p1: 1, p2: 2}, null, 2));
