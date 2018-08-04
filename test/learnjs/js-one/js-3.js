@@ -34,3 +34,12 @@ console.log(xiaoming.name);
 xiaoming.run();
 wang.fly();
 zhang.run();
+
+function TwoStudent(name) {
+    this.name = name;
+    this.hello = function () {
+        console.log('Hello, ' + this.name + '!');
+    }
+}
+var xiaomingaozhao = new TwoStudent('小赵');
+xiaozhao.hello();
