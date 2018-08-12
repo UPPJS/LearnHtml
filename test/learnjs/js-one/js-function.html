@@ -6,6 +6,9 @@
     <meta name="author" content="JohnPing">
     <!-- <meta http-equiv="refresh" content="30"> -->
     <base target="_blank"/>
+    <style>
+        td {width: 40px; text-align: center}
+    </style>
     <title>js-function</title>
 </head>
 <body>
@@ -16,17 +19,41 @@
         return a * b;
     }
     document.getElementById("demo").innerHTML=myFunction1(4, 3);
+    
+    function numFunction() {
+        var x, text;
+        x = document.getElementById("innumber").value;
+        if (isNaN(x) || x < 1 || x > 10) {
+            text = "输入错误";
+        } else {
+            text = "输入正确";
+        }
+        document.getElementById("numdemo").innerHTML = text;
+
+    function abvar() {
+        let ab, abend;
+        ab = document.getElementById("abinput").value;
+        abend = ab * ab;
+        document.getElementById("aboutput").innerHTML = abend;
+    }
+    }
 </script>
 <p>第二次测试：做个表格</p>
 <table border="1">
     <tr>
-        <td>a, b</td>
-        <td>c, d</td>
+        <td><input id="abinput"></td>
+        <td><p id="aboutput"></p></td>
     </tr>
     <tr>
         <td>e, f</td>
         <td>g, h</td>
     </tr>
 </table>
+<button type="button" onclick="abvar()">表格生成结果</button>
+<p>3. 表单输入</p>
+<p>请输入从1到10：</p>
+<input id="innumber">
+<button type="button" onclick="numFunction()">UP</button>
+<p id="numdemo"></p>
 </body>
 </html>
