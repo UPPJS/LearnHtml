@@ -7,17 +7,58 @@
     <!-- <meta http-equiv="refresh" content="30"> -->
     <base target="_blank"/>
     <style>
-        td {width: 40px; text-align: center}
+        td, input {width: 40px; text-align: center}
     </style>
     <script src="js-td-a.js"></script>
     <title>f-table</title>
 </head>
 <body>
-<p>制作表格</p>
+<button type="button" onclick="ahArr()">生成结果</button>
+<p id="text1"></p>
+<p>输入表格</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>房间</td>
+        <td>高度</td>
+        <td>开间</td>
+        <td>进深</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td><input id="a-h"></td>
+        <td><input id="a-k"></td>
+        <td><input id="a-j"></td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<p>输出表格</p>
 <table border="1" cellspacing="0" cellpadding="0">
     <tr>
         <td>房间编号</td>
-        <td width="40" align="center">H</td>
+        <td>H</td>
         <td>H1</td>
         <td>H2</td>
         <td>H3</td>
@@ -34,7 +75,7 @@
     </tr>
     <tr>
         <td>A</td>
-        <td id="a-h"></td>
+        <td id="a-h0"></td>
         <td id="a-h1"></td>
         <td id="a-h2"></td>
         <td id="a-h3"></td>
@@ -51,7 +92,7 @@
     </tr>
     <tr>
         <td>B</td>
-        <td id="b-h"></td>
+        <td id="b-h0"></td>
         <td id="b-h1"></td>
         <td id="b-h2"></td>
         <td id="b-h3"></td>
@@ -68,7 +109,7 @@
     </tr>
     <tr>
         <td>C</td>
-        <td id="c-h"></td>
+        <td id="c-h0"></td>
         <td id="c-h1"></td>
         <td id="c-h2"></td>
         <td id="c-h3"></td>
@@ -85,7 +126,7 @@
     </tr>
     <tr>
         <td>D</td>
-        <td id="d-h"></td>
+        <td id="d-h0"></td>
         <td id="d-h1"></td>
         <td id="d-h2"></td>
         <td id="d-h3"></td>
@@ -102,7 +143,7 @@
     </tr>
     <tr>
         <td>E</td>
-        <td id="e-h"></td>
+        <td id="e-h0"></td>
         <td id="e-h1"></td>
         <td id="e-h2"></td>
         <td id="e-h3"></td>

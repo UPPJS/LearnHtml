@@ -19,41 +19,46 @@
         return a * b;
     }
     document.getElementById("demo").innerHTML=myFunction1(4, 3);
-    
-    function numFunction() {
-        var x, text;
-        x = document.getElementById("innumber").value;
-        if (isNaN(x) || x < 1 || x > 10) {
-            text = "输入错误";
-        } else {
-            text = "输入正确";
-        }
-        document.getElementById("numdemo").innerHTML = text;
 
-    function abvar() {
-        let ab, abend;
+    function abFunction() {
+        var ab, abend;
         ab = document.getElementById("abinput").value;
         abend = ab * ab;
         document.getElementById("aboutput").innerHTML = abend;
     }
+    
+    function numFunction() {
+        var x, text;
+        x = document.getElementById("innumber").value;
+        // if (isNaN(x) || x < 1 || x > 10) {
+        //     text = "输入错误";
+        // } else {
+        //     text = "输入正确";
+        // }
+
+        text = x * x;
+        document.getElementById("numdemo").innerHTML = text;
     }
 </script>
 <p>第二次测试：做个表格</p>
 <table border="1">
     <tr>
         <td><input id="abinput"></td>
-        <td><p id="aboutput"></p></td>
+        <td id="aboutput"></td>
     </tr>
     <tr>
         <td>e, f</td>
         <td>g, h</td>
     </tr>
 </table>
-<button type="button" onclick="abvar()">表格生成结果</button>
+<button type="button" onclick="abFunction()">表格生成结果</button>
 <p>3. 表单输入</p>
 <p>请输入从1到10：</p>
 <input id="innumber">
 <button type="button" onclick="numFunction()">UP</button>
-<p id="numdemo"></p>
+<!--<p id="numdemo"></p>-->
+<table border="1">
+    <tr><td id="numdemo"></td></tr>
+</table>
 </body>
 </html>

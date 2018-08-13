@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>js-one</title>
+    <style>
+        td, input {width: 40px; text-align: center}
+    </style>
+    <script>
+        // 生成随机数
+        // 生成数组
+        // 比较大小
+
+        var oneInput = document.getElementById("js-one-in").value;
+        // var oneInput = 2700;
+        // 随机数
+        function oneRandom(min, max) {
+            var range, rand, num;
+            range = max -min;
+            rand = Math.random();
+            num = min + Math.round(rand * range);
+            return num;
+        }
+        var oneArr = [];  // 声明数组
+        for (var i=0; i < 5; i++) {
+            var aa = oneRandom(oneInput - 10, oneInput + 10);  // 依次让随机数等于 aa
+            oneArr.push(aa);  // 依次将 aa 写入数组
+        }
+        function oneArray() {
+
+            // return oneArr[0];
+            document.getElementById("one-array").innerHTML = oneArr[0];
+        }
+        function oneone() {
+            document.getElementById("oneInput").innerHTML = "What?"
+        }
+
+        // function oneCompare() {
+        //     var oneCom;
+        //     if (Math.abs(Math.min(...Arr) - oneInput) >= Math.abs(Math.max(...Arr) - oneInput)) {
+        //         oneCom = Math.min(...Arr) - oneInput;
+        //     } else {
+        //         oneCom = Math.max(...Arr) - oneInput;
+        //     }
+        //     document.getElementById("one-compare").innerHTML = oneCom;
+        // }
+    </script>
+</head>
+<body>
+<p>表格输入输出测试</p>
+<button type="button" onclick="oneArray(); oneone()">生成结果</button>
+<p>--------------------------</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>输入</td>
+        <td><input id="js-one-in"></td>
+    </tr>
+</table>
+<br/>
+<!--<table border="1" cellspacing="0" cellpadding="0">-->
+    <!--<tr>-->
+        <!--<td>输出</td>-->
+        <!--<td id="one-random"></td>-->
+        <!--<td id="one-array"></td>-->
+        <!--<td id="one-compare"></td>-->
+    <!--</tr>-->
+<!--</table>-->
+<p id="oneInput"></p>
+<p id="one-array"></p>
+<p id="one-compare"></p>
+</body>
+</html>
