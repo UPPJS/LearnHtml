@@ -8,52 +8,35 @@ function xxFirst() {
     return xFirst;
 }
 // 随机数生成
-function aRandom(min, max) {
-    let range, rand, num;
-    range = max -min;
-    rand = Math.random();
-    num = min + Math.round(rand * range);
-    return num;
-}
-
-// console.log(aRandom(xFirst - 10, xFirst + 10));
-
-// 列表生成
-function xList() {
-    let xArr = [];  // 声明数组
-
+function aRandom() {
+    var min = xxFirst() - 10;
+    var aArr = [];
     for (var i = 0; i < 5; i++) {
-        var xx = aRandom(xxFirst() - 10, xxFirst() + 10);  // 依次让随机数等于 aa
-        xArr.push(xx);  // 依次将 aa 写入数组
+        var rand, num;
+        rand = Math.random();
+        num = min + Math.round(rand * 20);
+        aArr.push(num);
     }
-    return xArr;
+    return aArr;
 }
-// var xxlist = xList();
-// console.log(xxlist[0]);
-// console.log(xList());
 
-// 比较大小
 function xCompare() {
-    let xxCompare;
-    if (Math.abs(Math.min(...xList()) - xxFirst()) >= Math.abs(Math.max(...xList()) - xxFirst())) {
-        xxCompare = Math.min(...xList()) - xxFirst();
+    var x01, x02, x03, x04, x05, xxCompare, xmin, xmax;
+    var xx00 = aRandom();
+    x01 = xx00[0];
+    x02 = xx00[1];
+    x03 = xx00[2];
+    x04 = xx00[3];
+    x05 = xx00[4];
+    xmin = eval("Math.min(" + xx00.toString() + ")");
+    xmax = eval("Math.max(" + xx00.toString() + ")");
+    // xxCompare = Math.PI;
+    if (Math.abs(xmin) >= Math.abs(xmax)) {
+        xxCompare = xmin;
     } else {
-        xxCompare = Math.max(...xList()) - xxFirst();
+        xxCompare = xmax;
     }
-    return xxCompare;
-}
-
-// console.log(xCompare());
-
-function xEnd() {
-    let xout1, xout2;
-    console.log(xList()[0]);
-    console.log(xCompare());
-    xout1 = xList()[0];
-    xout2 = xCompare();
     document.getElementById("xout00").innerHTML = xxFirst();
-    document.getElementById("xout01").innerHTML = xout1;
-    document.getElementById("xout02").innerHTML = xout2;
+    document.getElementById("xout01").innerHTML = x01;
+    document.getElementById("xout02").innerHTML = xxCompare;
 }
-// xEnd();
-

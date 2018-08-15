@@ -30,3 +30,5 @@ console.time('Array initialize');
 //     console.log(i);
 //     if (i === 2) debugger;
 // }
+var myname = Math.round(Math.random() * 10);
+console.log(myname);

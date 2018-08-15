@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>js-a1</title>
+
+</head>
+<body>
+<p>下面开始新一轮测试</p>
+<p><input id="a1-input"></p>
+<p id="a1-0"></p>
+<P id="a1-1"></P>
+<button type="button" onclick="aaaList()">Fuck</button>
+<script>
+    function aaaRandom(min, max) {
+        let range, rand, num;
+        range = max -min;
+        rand = Math.random();
+        num = min + Math.round(rand * range);
+        return num;
+    }
+
+
+    function f() {
+        var aaaFirst = document.getElementById("a1-input").value;
+        return aaaFirst;
+    }
+
+    function aaaList() {
+        var ff = f();
+        let aaaArr = [];  // 声明数组
+        for (var i = 0; i < 5; i++) {
+            var xx = aaaRandom(aaaFirst() - 10, aaaFirst() + 10);  // 依次让随机数等于 aa
+            aaaArr.push(xx);  // 依次将 aa 写入数组
+        }
+        document.getElementById("a1-0").innerHTML = ff;
+        document.getElementById("a1-1").innerHTML = aaaOne;
+        document.getElementById("a1-1").innerHTML = aaaArr;
+    }
+
+    function a1Compare() {
+        let a1First = document.getElementById("a1-input").value;
+        let xxCompare;
+        if (Math.abs(Math.min(...xList()) - a1First()) >= Math.abs(Math.max(...xList()) - a1First())) {
+            xxCompare = Math.min(...xList()) - a1First();
+        } else {
+            xxCompare = Math.max(...xList()) - a1First();
+        }
+        return xxCompare;
+    }
+</script>
+
+</body>
+</html>

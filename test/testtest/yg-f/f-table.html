@@ -8,8 +8,13 @@
     <base target="_blank"/>
     <style>
         td, input {width: 40px; text-align: center}
+        button {width: 600px; height: 200px}
     </style>
     <script src="js-td-a.js"></script>
+    <script src="js-td-b.js"></script>
+    <script src="js-td-c.js"></script>
+    <script src="js-td-d.js"></script>
+    <script src="js-td-e.js"></script>
     <title>f-table</title>
 </head>
 <body>
@@ -30,27 +35,27 @@
     </tr>
     <tr>
         <td>B</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><input id="b-h"></td>
+        <td><input id="b-k"></td>
+        <td><input id="b-j"></td>
     </tr>
     <tr>
         <td>C</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><input id="c-h"></td>
+        <td><input id="c-k"></td>
+        <td><input id="c-j"></td>
     </tr>
     <tr>
         <td>D</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><input id="d-h"></td>
+        <td><input id="d-k"></td>
+        <td><input id="d-j"></td>
     </tr>
     <tr>
         <td>E</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><input id="e-h"></td>
+        <td><input id="e-k"></td>
+        <td><input id="e-j"></td>
     </tr>
 </table>
 <p>输出表格</p>
@@ -158,6 +163,12 @@
         <td id="e-d"></td>
     </tr>
 </table>
-<button type="button" onclick="ahEnd(); firstone">生成结果</button>
+<br/>
+<button type="button" onclick="
+ah(); ahEnd(); ak(); akEnd(); aj(); ajEnd();
+bh(); bhEnd(); bk(); bkEnd(); bj(); bjEnd();
+ch(); chEnd(); ck(); ckEnd(); cj(); cjEnd();
+dh(); dhEnd(); dk(); dkEnd(); dj(); djEnd();
+eh(); ehEnd(); ek(); ekEnd(); ej(); ejEnd()">点我，我是超大按钮</button>
 </body>
 </html>

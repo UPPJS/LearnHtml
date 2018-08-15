@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <style>td {width: 200px}</style>
+    <title>test-6</title>
+</head>
+<body>
+<p>开始</p>
+<table border="1">
+    <tr>
+        <td>输入</td>
+        <td><input id="in"></td>
+        <td id="out"></td>
+        <td id="oouutt"></td>
+    </tr>
+</table>
+<button type="button" onclick="inout()">Fuck</button>
+<script>
+    function inout() {
+        var aain = document.getElementById("in").value;
+        if (aain.length <= 0) {
+            document.getElementById("out").innerHTML = null;
+        } else {
+            var ain = aain + Math.round(Math.random() * 20);
+            document.getElementById("out").innerHTML = ain;
+        }
+        // document.getElementById("out").innerHTML = aain;
+    }
+</script>
+</body>
+</html>
