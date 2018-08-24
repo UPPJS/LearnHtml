@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <title>eat-1</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <p id="p1">如果点击“隐藏”按钮，我就会消失。</p>
+    <button id="hide" type="button">隐藏</button>
+    <button id="show" type="button">显示</button>
+</body>
+</html>
