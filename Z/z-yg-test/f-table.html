@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="uppjs, pingjiasheng">
+    <meta name="author" content="JohnPing">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <base target="_blank"/>
+    <style>
+        td, input {width: 40px; text-align: center;
+            height: 20px;}
+        #x-button {
+            font-size: xx-large;
+        }
+        button {width: 600px; height: 200px}
+        table {
+            font-family: 宋体, serif;
+            font-size: 12px;
+        }
+    </style>
+    <script src="js-td-a.js"></script>
+    <script src="js-td-b.js"></script>
+    <script src="js-td-c.js"></script>
+    <script src="js-td-d.js"></script>
+    <script src="js-td-e.js"></script>
+    <script src="js-headname.js"></script>
+    <title>f-table</title>
+</head>
+<body>
+<p style="text-align: center">分户验收自动生成系统，测试版本号：0.3.3</p>
+<p style="color: red; font-size: 20px">输入表格 ↓</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>房间</td>
+        <td>高度</td>
+        <td>开间</td>
+        <td>进深</td>
+    </tr>
+    <tr>
+        <td><input id="a-kt"></td>
+        <td><input id="a-h"></td>
+        <td><input id="a-k"></td>
+        <td><input id="a-j"></td>
+    </tr>
+    <tr>
+        <td><input id="b-ws"></td>
+        <td><input id="b-h"></td>
+        <td><input id="b-k"></td>
+        <td><input id="b-j"></td>
+    </tr>
+    <tr>
+        <td><input id="c-ws"></td>
+        <td><input id="c-h"></td>
+        <td><input id="c-k"></td>
+        <td><input id="c-j"></td>
+    </tr>
+    <tr>
+        <td><input id="d-ws"></td>
+        <td><input id="d-h"></td>
+        <td><input id="d-k"></td>
+        <td><input id="d-j"></td>
+    </tr>
+    <tr>
+        <td><input id="e-ws"></td>
+        <td><input id="e-h"></td>
+        <td><input id="e-k"></td>
+        <td><input id="e-j"></td>
+    </tr>
+</table>
+<p style="color: red; font-size: 20px">输出表格 ↓</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>房间编号</td>
+        <td>H</td>
+        <td>H1</td>
+        <td>H2</td>
+        <td>H3</td>
+        <td>H4</td>
+        <td>H5</td>
+        <td>L1</td>
+        <td>L2</td>
+        <td>L3</td>
+        <td>L4</td>
+        <td>最大偏差</td>
+        <td>极差</td>
+        <td>最大偏差</td>
+        <td>极差</td>
+    </tr>
+    <tr>
+        <td id="a-kt-0"></td>
+        <td id="a-h0"></td>
+        <td id="a-h1"></td>
+        <td id="a-h2"></td>
+        <td id="a-h3"></td>
+        <td id="a-h4"></td>
+        <td id="a-h5"></td>
+        <td id="a-l1"></td>
+        <td id="a-l2"></td>
+        <td id="a-l3"></td>
+        <td id="a-l4"></td>
+        <td id="a-a"></td>
+        <td id="a-b"></td>
+        <td id="a-c"></td>
+        <td id="a-d"></td>
+    </tr>
+    <tr>
+        <td id="b-ws-0"></td>
+        <td id="b-h0"></td>
+        <td id="b-h1"></td>
+        <td id="b-h2"></td>
+        <td id="b-h3"></td>
+        <td id="b-h4"></td>
+        <td id="b-h5"></td>
+        <td id="b-l1"></td>
+        <td id="b-l2"></td>
+        <td id="b-l3"></td>
+        <td id="b-l4"></td>
+        <td id="b-a"></td>
+        <td id="b-b"></td>
+        <td id="b-c"></td>
+        <td id="b-d"></td>
+    </tr>
+    <tr>
+        <td id="c-ws-0"></td>
+        <td id="c-h0"></td>
+        <td id="c-h1"></td>
+        <td id="c-h2"></td>
+        <td id="c-h3"></td>
+        <td id="c-h4"></td>
+        <td id="c-h5"></td>
+        <td id="c-l1"></td>
+        <td id="c-l2"></td>
+        <td id="c-l3"></td>
+        <td id="c-l4"></td>
+        <td id="c-a"></td>
+        <td id="c-b"></td>
+        <td id="c-c"></td>
+        <td id="c-d"></td>
+    </tr>
+    <tr>
+        <td id="d-ws-0"></td>
+        <td id="d-h0"></td>
+        <td id="d-h1"></td>
+        <td id="d-h2"></td>
+        <td id="d-h3"></td>
+        <td id="d-h4"></td>
+        <td id="d-h5"></td>
+        <td id="d-l1"></td>
+        <td id="d-l2"></td>
+        <td id="d-l3"></td>
+        <td id="d-l4"></td>
+        <td id="d-a"></td>
+        <td id="d-b"></td>
+        <td id="d-c"></td>
+        <td id="d-d"></td>
+    </tr>
+    <tr>
+        <td id="e-ws-0"></td>
+        <td id="e-h0"></td>
+        <td id="e-h1"></td>
+        <td id="e-h2"></td>
+        <td id="e-h3"></td>
+        <td id="e-h4"></td>
+        <td id="e-h5"></td>
+        <td id="e-l1"></td>
+        <td id="e-l2"></td>
+        <td id="e-l3"></td>
+        <td id="e-l4"></td>
+        <td id="e-a"></td>
+        <td id="e-b"></td>
+        <td id="e-c"></td>
+        <td id="e-d"></td>
+    </tr>
+</table>
+<br/>
+<button type="button" onclick="
+ah(); ahEnd(); ak(); akEnd(); aj(); ajEnd();
+bh(); bhEnd(); bk(); bkEnd(); bj(); bjEnd();
+ch(); chEnd(); ck(); ckEnd(); cj(); cjEnd();
+dh(); dhEnd(); dk(); dkEnd(); dj(); djEnd();
+eh(); ehEnd(); ek(); ekEnd(); ej(); ejEnd();
+headName()">
+    <div id="x-button">点我，超大按钮</div>
+</button>
+<p style="color: green;">
+    规则：<br>
+    1. 复制时选中多少表格，粘贴时要对应选中相同数量的表格。<br>
+    2. 每点击一次生成一组新的随机数。<br>
+    3. 输入表格中房间列输入内容将在输出列表中呈现。
+</p>
+</body>
+</html>
