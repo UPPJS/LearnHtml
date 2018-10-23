@@ -1,9 +1,3 @@
-# 目录结构
+# :smile:
 
-[HTML](/log/HTML.md)
-
-[CSS](/log/CSS.md)
-
-[JavaScript](/log/javascript.md)
-
-[WEB 学习问题总结](/log/bug.md)
+学习记录在这里，请移步 [POWER](https://github.com/SimbaPing/POWER)。
