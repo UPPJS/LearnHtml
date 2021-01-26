@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="74bbb929-cc11-492d-afce-38335658cd80" name="Default" comment="other">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/learncss/test_background/bg_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/learncss/test_background/bg_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/learncss/test_box/box_border.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/learncss/test_box/box_border.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/learnjs/js-one/js-yg.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/learnjs/js-one/js-yg.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,24 +33,8 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1621002005">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="learnhtml" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,6 +138,7 @@
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectId" id="1meU69WcFeYDeWrVI8WkLkLfVF3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -169,14 +153,20 @@
       <pane id="Course" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoodTwo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnPython" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -190,7 +180,8 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="AtomConfig" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -201,21 +192,15 @@
       <recent name="C:\Users\pjs\GitHub\learnhtml\test\testtest\yg-test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Unknown.eat-2.html1976595979">
+  <component name="RunManager" selected="JavaScript Debug.bg_color.html">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,25 +212,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="eat-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learnhtml/test/testtest/eat-food/eat-2.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="f-table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learnhtml/test/testtest/yg-f/f-table.html">
+    <configuration name="bg_color.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearnWeb/learnhtml/test/learncss/test_background/bg_color.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="js7.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learnhtml/test/learnjs/js7.html">
@@ -260,7 +227,8 @@
     <configuration name="js-console.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="js-console.js" working-dir="$PROJECT_DIR$/test/learnjs/js-one">
       <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -268,7 +236,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.js-console.js" />
+        <item itemvalue="Node.js.eat-food-test.js" />
+        <item itemvalue="JavaScript Debug.test-6.html" />
+        <item itemvalue="JavaScript Debug.js7.html" />
+        <item itemvalue="JavaScript Debug.bg_color.html" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -325,6 +312,17 @@
       <workItem from="1551369501600" duration="39000" />
       <workItem from="1551369703744" duration="45000" />
       <workItem from="1551498123989" duration="38000" />
+      <workItem from="1609853376111" duration="114000" />
+      <workItem from="1609853503559" duration="155000" />
+      <workItem from="1609854012974" duration="913000" />
+      <workItem from="1609867119541" duration="63000" />
+      <workItem from="1609867202732" duration="449000" />
+      <workItem from="1609895204972" duration="477000" />
+      <workItem from="1609895836620" duration="1273000" />
+      <workItem from="1609898044505" duration="187000" />
+      <workItem from="1609898380237" duration="985000" />
+      <workItem from="1609899421550" duration="718000" />
+      <workItem from="1609900168088" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="20180115-0">
       <created>1516022625047</created>
@@ -516,7 +514,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="SHOW_DETAILS" value="true" />
@@ -534,29 +532,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20180115-0" />
